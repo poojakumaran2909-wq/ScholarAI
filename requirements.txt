@@ -1,0 +1,10 @@
+langchain
+langchain-community
+langchain-huggingface
+sentence-transformers
+faiss-cpu
+groq
+openai-whisper
+gTTS
+pydub
+python-dotenv

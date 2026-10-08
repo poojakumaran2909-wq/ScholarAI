@@ -1,0 +1,1543 @@
+[
+  {
+    "id": "sc_st_pre_matric",
+    "name": "Pre-Matric Scholarship for SC/ST Students",
+    "source": "National Scholarship Portal, Ministry of Social Justice and Empowerment",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "SC",
+      "ST"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Maintenance allowance of ₹150-750/month plus compulsory non-refundable fees",
+    "eligibility": null,
+    "documents": [
+      "Caste certificate",
+      "Income certificate",
+      "Aadhaar-linked bank account",
+      "Previous mark sheet"
+    ],
+    "deadline": "Varies by cycle, check NSP portal",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "sc_st_post_matric",
+    "name": "Post-Matric Scholarship for SC/ST Students",
+    "source": "National Scholarship Portal, Ministry of Social Justice and Empowerment",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "SC",
+      "ST"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Full tuition fee reimbursement plus maintenance allowance, amount varies by course level",
+    "eligibility": null,
+    "documents": [
+      "Caste certificate",
+      "Income certificate",
+      "Aadhaar-linked bank account",
+      "Institution admission proof"
+    ],
+    "deadline": "Varies by cycle, check NSP portal",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "top_class_education_sc",
+    "name": "Top Class Education Scheme for SC Students",
+    "source": "National Scholarship Portal, Ministry of Social Justice and Empowerment",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "SC"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Full tuition plus ₹2,220/month living allowance, plus books and computer allowance",
+    "eligibility": null,
+    "documents": [
+      "Caste certificate",
+      "Income certificate",
+      "Admission letter from a listed premier institute"
+    ],
+    "deadline": "Varies by cycle, check NSP portal",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "national_overseas_sc",
+    "name": "National Overseas Scholarship for SC Students",
+    "source": "Department of Social Justice and Empowerment, Government of India",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "SC"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Full funding covering tuition, living expenses, travel, and contingency costs abroad",
+    "eligibility": null,
+    "documents": [
+      "Caste certificate",
+      "Income certificate",
+      "Foreign university admission proof"
+    ],
+    "deadline": "Previous cycle closed 31 March 2026, check portal for next cycle",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "obc_post_matric",
+    "name": "Post-Matric Scholarship for OBC Students",
+    "source": "National Scholarship Portal, Ministry of Social Justice and Empowerment",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "OBC"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Financial assistance up to ₹35,000/month depending on course and scheme",
+    "eligibility": null,
+    "documents": [
+      "OBC caste certificate from competent authority",
+      "Income certificate",
+      "Previous mark sheet"
+    ],
+    "deadline": "Applications typically open June-October, check current NSP cycle",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "national_fellowship_obc",
+    "name": "National Fellowship for OBC Students",
+    "source": "National Scholarship Portal, Ministry of Social Justice and Empowerment",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "OBC"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Monthly fellowship stipend for research scholars",
+    "eligibility": null,
+    "documents": [
+      "OBC caste certificate",
+      "Income certificate",
+      "University research enrollment proof"
+    ],
+    "deadline": "Varies by cycle, check NSP portal",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "csss_merit",
+    "name": "Central Sector Scheme of Scholarship for College and University Students (CSSS)",
+    "source": "National Scholarship Portal, Department of Higher Education",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "General",
+      "SC",
+      "ST",
+      "OBC",
+      "EWS"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "₹10,000-20,000 per year depending on year of study",
+    "eligibility": null,
+    "documents": [
+      "Class 12 mark sheet",
+      "Income certificate",
+      "College admission proof"
+    ],
+    "deadline": "Varies by cycle, check NSP portal",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "inspire_scholarship",
+    "name": "INSPIRE Scholarship for Higher Education",
+    "source": "Department of Science and Technology, Government of India",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "General",
+      "SC",
+      "ST",
+      "OBC",
+      "EWS"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "₹80,000 per year for pursuing science degrees",
+    "eligibility": null,
+    "documents": [
+      "Class 12 rank proof (top 1% in board or JEE/NEET qualifiers)",
+      "Admission proof in a science course"
+    ],
+    "deadline": "Varies by cycle, check INSPIRE portal",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "minority_pre_matric",
+    "name": "Pre-Matric Scholarship for Minority Students",
+    "source": "Ministry of Minority Affairs, Government of India",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "₹1,000-10,000/year maintenance allowance plus admission fee",
+    "eligibility": null,
+    "documents": [
+      "Minority community certificate",
+      "Income certificate",
+      "Previous mark sheet"
+    ],
+    "deadline": "Previous cycle closed 15 November 2025, check NSP for current window",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "minority_post_matric",
+    "name": "Post-Matric Scholarship for Minority Students",
+    "source": "Ministry of Minority Affairs, Government of India",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "₹5,000-12,000/year plus compulsory fees and maintenance allowance",
+    "eligibility": null,
+    "documents": [
+      "Minority community certificate",
+      "Income certificate",
+      "Previous mark sheet"
+    ],
+    "deadline": "Previous cycle closed 15 November 2025, check NSP for current window",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "minority_merit_cum_means",
+    "name": "Merit-cum-Means Scholarship for Minority Students",
+    "source": "Ministry of Minority Affairs, Government of India",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Up to ₹30,000/year course fee reimbursement plus maintenance allowance",
+    "eligibility": null,
+    "documents": [
+      "Minority community certificate",
+      "Income certificate",
+      "Admission proof in professional/technical course"
+    ],
+    "deadline": "Previous cycle closed 15 November 2025, check NSP for current window",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "begum_hazrat_mahal_girls",
+    "name": "Begum Hazrat Mahal National Scholarship for Minority Girls",
+    "source": "Maulana Azad Education Foundation",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "₹5,000/year (Class 9-10), ₹6,000/year (Class 11-12)",
+    "eligibility": null,
+    "documents": [
+      "Minority community certificate",
+      "Income certificate",
+      "Previous mark sheet"
+    ],
+    "deadline": "Varies by cycle, check maef.nic.in",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "national_fellowship_st",
+    "name": "National Fellowship and Scholarship for ST Students",
+    "source": "National Scholarship Portal, Ministry of Tribal Affairs",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "ST"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "₹31,000/month (JRF), ₹35,000/month (SRF), plus contingency grants",
+    "eligibility": null,
+    "documents": [
+      "Tribe certificate",
+      "University research enrollment proof"
+    ],
+    "deadline": "Varies by cycle, check NSP portal",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "pm_yasasvi_school",
+    "name": "PM-YASASVI Top Class School Scholarship",
+    "source": "Ministry of Social Justice and Empowerment",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "OBC",
+      "EBC",
+      "DNT"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "₹75,000/year (residential school students), ₹25,000/year (day scholars)",
+    "eligibility": null,
+    "documents": [
+      "OBC/EBC/DNT certificate",
+      "Income certificate",
+      "School admission proof"
+    ],
+    "deadline": "School-component window has historically closed by late summer, check NSP",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "pm_yasasvi_professional",
+    "name": "PM-YASASVI Scholarship for Professional Courses",
+    "source": "Ministry of Social Justice and Empowerment",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "OBC",
+      "EBC",
+      "DNT"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Up to ₹1,25,000/year for professional courses (engineering, medicine, law)",
+    "eligibility": null,
+    "documents": [
+      "OBC/EBC/DNT certificate",
+      "Income certificate",
+      "Professional course admission proof"
+    ],
+    "deadline": "Varies by cycle, check NSP portal",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "aicte_pragati",
+    "name": "AICTE Pragati Scholarship Scheme for Girls",
+    "source": "All India Council for Technical Education (AICTE)",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "General",
+      "SC",
+      "ST",
+      "OBC",
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "₹50,000/year lump sum for tuition, books, computer, and study essentials",
+    "eligibility": null,
+    "documents": [
+      "Income certificate",
+      "AICTE-approved institution admission proof",
+      "Aadhaar-linked bank account"
+    ],
+    "deadline": "31 October 2026",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "aicte_saksham",
+    "name": "AICTE Saksham Scholarship Scheme for Differently-Abled Students",
+    "source": "All India Council for Technical Education (AICTE)",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "General",
+      "SC",
+      "ST",
+      "OBC",
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "₹50,000/year lump sum for tuition, books, and study essentials",
+    "eligibility": null,
+    "documents": [
+      "Disability certificate (minimum 40%)",
+      "Income certificate",
+      "AICTE-approved institution admission proof"
+    ],
+    "deadline": "31 October 2026",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "aicte_swanath",
+    "name": "AICTE Swanath Scholarship Scheme for Orphans",
+    "source": "All India Council for Technical Education (AICTE)",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "General",
+      "SC",
+      "ST",
+      "OBC",
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Monthly stipend covering tuition and living expenses",
+    "eligibility": null,
+    "documents": [
+      "Death certificates of both parents or Tehsildar/SDM certificate",
+      "AICTE-approved institution admission proof"
+    ],
+    "deadline": "Varies by cycle, check NSP portal",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "aicte_yashasvi",
+    "name": "AICTE Yashasvi Scholarship",
+    "source": "All India Council for Technical Education (AICTE)",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "General",
+      "SC",
+      "ST",
+      "OBC",
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "₹12,000/year (Diploma), ₹18,000/year (UG/PG Engineering/Management)",
+    "eligibility": null,
+    "documents": [
+      "Income certificate",
+      "AICTE-approved institution admission proof"
+    ],
+    "deadline": "Varies by cycle, check NSP portal",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "nmmss_means_merit",
+    "name": "National Means-cum-Merit Scholarship Scheme (NMMSS)",
+    "source": "Ministry of Education, Government of India",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "General",
+      "SC",
+      "ST",
+      "OBC"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "₹12,000/year (₹1,000/month)",
+    "eligibility": null,
+    "documents": [
+      "Income certificate",
+      "Class 8 marksheet",
+      "NMMS exam qualification proof"
+    ],
+    "deadline": "Varies by state, check state education department and NSP",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "ishan_uday_ne",
+    "name": "Ishan Uday Special Scholarship Scheme for North Eastern Region",
+    "source": "Ministry of Education, Government of India",
+    "source_url": "https://www.ugc.gov.in/Scholarships/stu_Scholarship5",
+    "education_level": ["ug"],
+    "category": [
+      "General",
+      "SC",
+      "ST",
+      "OBC"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "₹80,000 per annum",
+    "eligibility": "Students from North Eastern states who are admitted to the first year of a regular, full-time undergraduate degree programme. The scheme is intended for eligible students from the North Eastern Region.",
+    "documents": [
+      "Domicile proof of North Eastern state",
+      "Income certificate",
+      "Admission proof outside home state"
+    ],
+    "deadline": "Varies by cycle, check NSP portal",
+    "application_url": null,
+    "last_checked": "2026-10-02",
+    "duplicate_sources": [
+      "Ministry of Education, Government of India",
+      "UGC"
+    ],
+    "merged_record_ids": [
+      "ishan_uday_ne",
+      "ugc_3c301904ef9f"
+    ]
+  },
+  {
+    "id": "sitaram_jindal_foundation",
+    "name": "Sitaram Jindal Foundation Scholarship",
+    "source": "Sitaram Jindal Foundation, Bengaluru",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "General",
+      "SC",
+      "ST",
+      "OBC",
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "₹500-3,200/month depending on course level and gender",
+    "eligibility": null,
+    "documents": [
+      "Income certificate (not older than 2 years)",
+      "Admission/fee receipt from a government-aided or affordable private institution"
+    ],
+    "deadline": "Rolling admissions, applications accepted year-round",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "reliance_foundation_ug",
+    "name": "Reliance Foundation Undergraduate Scholarships",
+    "source": "Reliance Foundation",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "General",
+      "SC",
+      "ST",
+      "OBC",
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Up to ₹2 lakh over the duration of the degree, plus mentorship and alumni support",
+    "eligibility": null,
+    "documents": [
+      "Class 12 marksheet",
+      "Income certificate",
+      "UG admission proof"
+    ],
+    "deadline": "Varies by cycle, check official portal",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "hdfc_parivartan_ecss",
+    "name": "HDFC Bank Parivartan Educational Crisis Scholarship Support (ECSS)",
+    "source": "HDFC Bank Parivartan",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "General",
+      "SC",
+      "ST",
+      "OBC",
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "₹15,000-75,000 depending on academic level",
+    "eligibility": null,
+    "documents": [
+      "Income certificate",
+      "Previous mark sheet",
+      "Proof of financial hardship or personal crisis"
+    ],
+    "deadline": "Varies by cycle, check official portal",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "inlaks_shivdasani",
+    "name": "Inlaks Shivdasani Scholarship",
+    "source": "Inlaks Foundation",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "General",
+      "SC",
+      "ST",
+      "OBC",
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Covers tuition fees, living expenses, and travel costs for study in the US, UK, or Europe",
+    "eligibility": null,
+    "documents": [
+      "Foreign university admission proof",
+      "Academic transcripts",
+      "Statement of purpose"
+    ],
+    "deadline": "Varies by cycle, check official website",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "kc_mahindra_diploma",
+    "name": "K.C. Mahindra Scholarships for Polytechnic Diploma Students",
+    "source": "K.C. Mahindra Education Trust",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "General",
+      "SC",
+      "ST",
+      "OBC",
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Financial assistance for tuition and other academic expenses",
+    "eligibility": null,
+    "documents": [
+      "Income certificate",
+      "Polytechnic institution admission proof"
+    ],
+    "deadline": "Varies by cycle, check official website",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "faea_scholarship",
+    "name": "Foundation for Academic Excellence and Access (FAEA) Scholarship",
+    "source": "Foundation for Academic Excellence and Access",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "General",
+      "SC",
+      "ST",
+      "OBC",
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Financial assistance for undergraduate studies in arts, commerce, and science",
+    "eligibility": null,
+    "documents": [
+      "Income certificate",
+      "Proof of social/economic disadvantage",
+      "UG admission proof"
+    ],
+    "deadline": "Varies by cycle, check official website",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "bharti_airtel_scholarship",
+    "name": "Bharti Airtel Scholarship Program",
+    "source": "Bharti Airtel Foundation",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "General",
+      "SC",
+      "ST",
+      "OBC",
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "100% tuition fee coverage, free hostel and mess charges, plus a free laptop",
+    "eligibility": null,
+    "documents": [
+      "Income certificate",
+      "Class 12 marksheet",
+      "Admission proof at a top-50 NIRF-ranked institute"
+    ],
+    "deadline": "Varies by cycle, check Bharti Airtel Foundation website",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "jsw_udaan_ug",
+    "name": "JSW UDAAN Scholarship",
+    "source": "JSW Foundation",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "General",
+      "SC",
+      "ST",
+      "OBC",
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Financial assistance for tuition and academic expenses",
+    "eligibility": null,
+    "documents": [
+      "Income certificate",
+      "Class 10/12/Diploma marksheets",
+      "Proof of residence near a JSW plant location"
+    ],
+    "deadline": "Varies by cycle, check official portal",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "vidyadhan_scholarship",
+    "name": "Vidyadhan Scholarship",
+    "source": "Sarojini Damodaran Foundation",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "General",
+      "SC",
+      "ST",
+      "OBC",
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Up to ₹10,000/year for Classes 11 and 12",
+    "eligibility": null,
+    "documents": [
+      "Class 10 marksheet",
+      "Income certificate (issued in current year)",
+      "PwD certificate if applicable"
+    ],
+    "deadline": "Varies by state, starting mid-June, check vidyadhan.org",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "gujarat_minority_prematric",
+    "name": "Gujarat Minority Pre-Matric Scholarship",
+    "source": "Government of Gujarat, Digital Gujarat Portal",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Financial assistance for pre-matric education",
+    "eligibility": null,
+    "documents": [
+      "Minority community certificate",
+      "Income certificate",
+      "Gujarat domicile certificate"
+    ],
+    "deadline": "Varies by cycle, check Digital Gujarat Portal",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "gujarat_minority_highersecondary",
+    "name": "Gujarat Minority Higher Secondary Scholarship",
+    "source": "Government of Gujarat, Digital Gujarat Portal",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Up to ₹10,000/year",
+    "eligibility": null,
+    "documents": [
+      "Minority community certificate",
+      "Income certificate",
+      "Gujarat domicile certificate"
+    ],
+    "deadline": "Varies by cycle, check Digital Gujarat Portal",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "gujarat_minority_postmatric",
+    "name": "Gujarat Minority Post-Matric Scholarship",
+    "source": "Government of Gujarat, Digital Gujarat Portal",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Up to ₹50,000 depending on course level, covers fees and study costs",
+    "eligibility": null,
+    "documents": [
+      "Minority community certificate",
+      "Income certificate",
+      "Gujarat domicile certificate"
+    ],
+    "deadline": "Varies by cycle, check Digital Gujarat Portal",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "karnataka_ssp_postmatric_minority",
+    "name": "Karnataka SSP Post-Matric Scholarship for Minorities",
+    "source": "Karnataka State Scholarship Portal (SSP)",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Financial assistance for tuition and maintenance",
+    "eligibility": null,
+    "documents": [
+      "Minority community certificate",
+      "Income certificate",
+      "Karnataka domicile certificate"
+    ],
+    "deadline": "November 30, 2025 for most departments (verify current cycle)",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "karnataka_ews_general",
+    "name": "Karnataka EWS Scholarship for General Category",
+    "source": "Karnataka State Scholarship Portal (SSP)",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "General",
+      "EWS"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Financial assistance for economically weaker general category students",
+    "eligibility": null,
+    "documents": [
+      "Income certificate",
+      "Proof of parent occupation (defense/unorganized sector, if applicable)"
+    ],
+    "deadline": "Varies by department, check Karnataka SSP portal",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "karnataka_disability_udid",
+    "name": "Karnataka Scholarship for Students with Disabilities",
+    "source": "Karnataka State Scholarship Portal (SSP)",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "General",
+      "SC",
+      "ST",
+      "OBC",
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Financial assistance for students with certified disabilities",
+    "eligibility": null,
+    "documents": [
+      "Unique Disability ID (UDID) card"
+    ],
+    "deadline": "Varies by department, check Karnataka SSP portal",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "jharkhand_ekalyan",
+    "name": "Ekalyan Scholarship Jharkhand",
+    "source": "Government of Jharkhand",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "SC",
+      "ST",
+      "OBC"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Up to ₹90,000",
+    "eligibility": null,
+    "documents": [
+      "Caste certificate",
+      "Income certificate",
+      "Jharkhand domicile certificate"
+    ],
+    "deadline": "Varies by cycle, check state portal",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "mp_ladli_laxmi",
+    "name": "Ladli Laxmi Yojana Madhya Pradesh",
+    "source": "Government of Madhya Pradesh",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "General",
+      "SC",
+      "ST",
+      "OBC",
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Total benefit of ₹1.18 lakh disbursed at different educational milestones",
+    "eligibility": null,
+    "documents": [
+      "Birth certificate",
+      "Madhya Pradesh domicile certificate"
+    ],
+    "deadline": "Ongoing scheme, check state portal for enrollment window",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "andhra_pradesh_postmatric",
+    "name": "Andhra Pradesh Post-Matric Scholarship",
+    "source": "Government of Andhra Pradesh, ePASS Portal",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "SC",
+      "ST",
+      "OBC",
+      "Minority"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Financial assistance covering fees and maintenance",
+    "eligibility": null,
+    "documents": [
+      "Caste/community certificate",
+      "Income certificate",
+      "Andhra Pradesh domicile certificate"
+    ],
+    "deadline": "Varies by cycle, check AP ePASS portal",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "up_scholarship_postmatric",
+    "name": "Uttar Pradesh Post-Matric Scholarship",
+    "source": "Government of Uttar Pradesh",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "SC",
+      "ST",
+      "OBC",
+      "Minority",
+      "General"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Financial assistance covering fees and maintenance",
+    "eligibility": null,
+    "documents": [
+      "Caste/community certificate (if applicable)",
+      "Income certificate",
+      "Uttar Pradesh domicile certificate"
+    ],
+    "deadline": "Varies by cycle, check UP scholarship portal",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "test_dynamic_001",
+    "name": "ScholarAI Dynamic Test Scholarship",
+    "source": "ScholarAI Test Source",
+    "source_url": null,
+    "education_level": null,
+    "category": [
+      "General",
+      "OBC",
+      "SC",
+      "ST",
+      "EWS"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "₹25,000 per year",
+    "eligibility": null,
+    "documents": [
+      "Income certificate",
+      "College admission proof",
+      "Mark sheet"
+    ],
+    "deadline": "31 December 2026",
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "ugc_258c66a729e6",
+    "name": "National Scholarship for Post Graduate Studies",
+    "source": "UGC",
+    "source_url": "https://www.ugc.gov.in/Scholarships/stu_Scholarship6",
+    "education_level": null,
+    "category": [],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Rs. 1,50,000/- per annum",
+    "eligibility": null,
+    "documents": null,
+    "deadline": null,
+    "application_url": null,
+    "last_checked": "2026-10-02"
+  },
+  {
+    "id": "nsp_ea1736755042",
+    "name": "Prime Minister'S Scholarship Scheme For Wards Of States/UTs Police Personnel Martyred During Terror/Naxal Attacks (Merit Based Scheme)",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "education_level": null,
+    "category": [],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": null,
+    "eligibility": null,
+    "documents": null,
+    "deadline": "31-10-2026",
+    "application_url": null,
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "specification_status": "empty",
+    "added_from": "NSP",
+    "added_at": "2026-10-02T15:52:26.424297"
+  },
+  {
+    "id": "nsp_5ad174760ff9",
+    "name": "Prime Minister'S Scholarship Scheme For Central Armed Police Forces And Assam Rifles (Merit Based Scheme)",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "education_level": null,
+    "category": [],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": null,
+    "eligibility": null,
+    "documents": null,
+    "deadline": "31-10-2026",
+    "application_url": null,
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "specification_status": "empty",
+    "added_from": "NSP",
+    "added_at": "2026-10-02T15:52:26.424297"
+  },
+  {
+    "id": "nsp_3e4b7d56155b",
+    "name": "PM USP Special Scholarship Scheme For Jammu Kashmir And Ladakh (Merit Based Scheme)",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "education_level": [
+      "ug"
+    ],
+    "category": [],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": null,
+    "eligibility": "(i) Candidates should be domicile of Union Territories of J&K and Ladakh. (ii) Students must have passed 12th examination from JKBOSE or CBSE affiliated schools located in UTs of J&K and Ladakh. (iii) Having family income of Rs. 8.00 Lakh or less per annum. (iv) Candidates who want to take admission under Lateral Entry Scheme have to pass Diploma in Engineering from the Polytechnic Institutes recognized by Directorate of Technical Education (DTE), UTs of J&K and Ladakh. (v) Candidates are compulsorily required to apply online on the AICTE web -portal and",
+    "documents": null,
+    "deadline": "31-10-2026",
+    "application_url": null,
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "specification_status": "success",
+    "added_from": "NSP",
+    "added_at": "2026-10-02T15:52:26.424297"
+  },
+  {
+    "id": "nsp_9b4851080ab1",
+    "name": "Financial Assistance For Education To The Wards Of Beedi/Cine/Iomc/Lsdm- Pre Matric (Welfare Based Scheme)",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "education_level": [
+      "pre_matric"
+    ],
+    "category": [],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": null,
+    "eligibility": null,
+    "documents": null,
+    "deadline": "31-10-2026",
+    "application_url": null,
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "specification_status": "success",
+    "added_from": "NSP",
+    "added_at": "2026-10-02T15:52:26.424297"
+  },
+  {
+    "id": "nsp_6aa86af05195",
+    "name": "Financial Assistance For Education To The Wards Of Beedi/Cine/Iomc/Lsdm- Post Matric (Welfare Based Scheme)",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "education_level": [
+      "post_matric"
+    ],
+    "category": [],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": null,
+    "eligibility": null,
+    "documents": null,
+    "deadline": "31-10-2026",
+    "application_url": null,
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "specification_status": "success",
+    "added_from": "NSP",
+    "added_at": "2026-10-02T15:52:26.424297"
+  },
+  {
+    "id": "nsp_8d9ef2843d9b",
+    "name": "PM YASASVI Central Sector Scheme Of Top Class Education In College For OBC, EBC And DNT Students (Merit Based Scheme)",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "education_level": [
+      "ug"
+    ],
+    "category": [
+      "OBC",
+      "EBC",
+      "DNT"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": null,
+    "eligibility": "(i) Those OBC/EBC/DNT students having total annual family income from all sources up to Rs. 2.50 lakh and having secured admission in a full -time prescribed course in any of the notified institutions according to the general selection criteria prescribed by the concerned instit ution, will be eligible for scholarship under the Scheme to the extent of the number of scholarships (slots) allocated to the institution for the course. (ii) In case the number of eligible students admitted exceeds the number of slots allotted to the institution, the scholarship will be restricted to the top students in the inter-se merit list based on the admission criteria for the course as mentioned in Annexure-II. However, if there is more than one student with equal marks for the last available slot in an institution, preference should be given to the student with the lower family income. The remaining students from OBC/EBC/DNT category admitted in the institution shall be eligible for the Post -Matric Scholarship (PMS) administered by this Mini stry through State Governments/UT Administrations, provided such students are otherwise eligible under the said scheme.",
+    "documents": null,
+    "deadline": "31-10-2026",
+    "application_url": null,
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "specification_status": "success",
+    "added_from": "NSP",
+    "added_at": "2026-10-02T15:52:26.424297"
+  },
+  {
+    "id": "nsp_a88b2d772f7b",
+    "name": "National Renewable Energy Fellowship Scheme (Merit Based Scheme)",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "education_level": null,
+    "category": [],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": null,
+    "eligibility": null,
+    "documents": null,
+    "deadline": "31-10-2026",
+    "application_url": null,
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "specification_status": "missing_url",
+    "added_from": "NSP",
+    "added_at": "2026-10-02T15:52:26.424297"
+  },
+  {
+    "id": "nsp_5b9542d76118",
+    "name": "Stipend Scheme For Under Graduate And Post Graduate Studies In Indian Statistical Institute-Kolkata (Merit Based Scheme)",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "education_level": [
+      "ug",
+      "pg"
+    ],
+    "category": [],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": null,
+    "eligibility": null,
+    "documents": null,
+    "deadline": "31-10-2026",
+    "application_url": null,
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "specification_status": "success",
+    "added_from": "NSP",
+    "added_at": "2026-10-02T15:52:26.424297"
+  },
+  {
+    "id": "nsp_f8081f69163b",
+    "name": "Icar National Talent Scholarship(Nts-Ug) (Merit Based Scheme)",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "education_level": [
+      "ug"
+    ],
+    "category": [],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Rs. 2,000 per month for undergraduate students and Rs. 3,000 per month for postgraduate students",
+    "eligibility": null,
+    "documents": null,
+    "deadline": "31-10-2026",
+    "application_url": null,
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "specification_status": "success",
+    "added_from": "NSP",
+    "added_at": "2026-10-02T15:52:26.424297"
+  },
+  {
+    "id": "nsp_47b54c980354",
+    "name": "Icar Post Graduate Scholarship(Pgs) (Merit Based Scheme)",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "education_level": [
+      "pg"
+    ],
+    "category": [],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": null,
+    "eligibility": "Only those candidates having passed their Bachelor's degree or appearing at the Final Examination of the Bachelor's Degree in the concerned field, under 10+6, 10+2+5, 10+2+4 are eligible to apply for admission . (For admission, the eligibility requirement laid down by the respective AUs including tenure will be treated as final). Candidates must have obtained 60% marks or Overall Grade Point Average (OGPA) of 6.60/10.00 or 3.25/5.00 or 2.6/4.00 for General, OBC and Under Privileged States (UPS) categories whereas for SC/ST /Physically Challenged (PC) categories, the candidates must have obtained 55% marks or an OGPA of 5.5/10.00 or 2.75/5.00 or 2.20/4.00. The equivalence of OGPA to percent marks, where needed, will be certified by the Registrar of the concerned University. For admission in M.V.Sc., candidates must have completed B.V.Sc. & A.H. with internship before the date of registration in the University. 3.3 AGE LIMIT Minimum age limit shall be 19 years as on the date of the examination. No relaxation is admissible regarding minimum age limit.",
+    "documents": null,
+    "deadline": "31-10-2026",
+    "application_url": null,
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "specification_status": "success",
+    "added_from": "NSP",
+    "added_at": "2026-10-02T15:52:26.424297"
+  },
+  {
+    "id": "nsp_dcfb36d658fb",
+    "name": "Icar National Talent Scholarship(Nts-Pg) (Merit Based Scheme)",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "education_level": [
+      "pg"
+    ],
+    "category": [],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Rs. 3,000 per month for postgraduate students",
+    "eligibility": null,
+    "documents": null,
+    "deadline": "31-10-2026",
+    "application_url": null,
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "specification_status": "success",
+    "added_from": "NSP",
+    "added_at": "2026-10-02T15:52:26.424297"
+  },
+  {
+    "id": "nsp_5d19ad1f2bd8",
+    "name": "Icar Junior Research Fellowships(Jrf) And Senior Research Fellowships(Srf) (Merit Based Scheme)",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "education_level": [
+      "pg",
+      "phd"
+    ],
+    "category": [],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": null,
+    "eligibility": "Only those candidates having passed their Bachelor's degree or appearing at the Final Examination of the Bachelor's Degree in the concerned field, under 10+6, 10+2+5, 10+2+4 are eligible to apply for admission . (For admission, the eligibility requirement laid down by the respective AUs including tenure will be treated as final). Candidates must have obtained 60% marks or Overall Grade Point Average (OGPA) of 6.60/10.00 or 3.25/5.00 or 2.6/4.00 for General, OBC and Under Privileged States (UPS) categories whereas for SC/ST /Physically Challenged (PC) categories, the candidates must have obtained 55% marks or an OGPA of 5.5/10.00 or 2.75/5.00 or 2.20/4.00. The equivalence of OGPA to percent marks, where needed, will be certified by the Registrar of the concerned University. For admission in M.V.Sc., candidates must have completed B.V.Sc. & A.H. with internship before the date of registration in the University. 3.3 AGE LIMIT Minimum age limit shall be 19 years as on the date of the examination. No relaxation is admissible regarding minimum age limit.",
+    "documents": null,
+    "deadline": "31-10-2026",
+    "application_url": null,
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "specification_status": "success",
+    "added_from": "NSP",
+    "added_at": "2026-10-02T15:52:26.424297"
+  },
+  {
+    "id": "nsp_d655aaf09da7",
+    "name": "Central Sector Scholarship Of Top Class Education For SC Students (Merit Based Scheme)",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "education_level": null,
+    "category": [
+      "SC"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "sector institutions (ii) Academic allowance of Rs. 86,000 in the first year of study and Rs. The payment of tuition fee, other non -refundable charges and academic allowance",
+    "eligibility": "a. Those SC students having total annual family income from all sources up to Rs. 8.00 lakh and having secured admission in a full -time prescribed course in any of the notified institutions according to the general selection criteria prescribed by the concerned institution, will be eligible for scholarship under the Scheme to the extent of the number of scholarships (slots) allocated to the institution for the course. Income declaration of self-employed parents/guardian should be in the form of a certificate issued by revenue officer not below the rank of Tehsildar. Employed parents/guardians are required to obtain income certificate from their employer. Employed parents/guardians should obtain consolidated certificate from revenue officer for any other additional source of income. b. In case the number of eligible students admitted exceeds the number of slots allotted to the institution, the scholarship will be restricted to the top students in the inter-se merit list based on the admission criteria for the course as mentioned in Annexure-II. However, if there is more than one student with equal marks for the last available slot in an institution, preference should be given to the student with the lower family",
+    "documents": null,
+    "deadline": "31-10-2026",
+    "application_url": null,
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "specification_status": "success",
+    "added_from": "NSP",
+    "added_at": "2026-10-02T15:52:26.424297"
+  },
+  {
+    "id": "nsp_43a380386794",
+    "name": "Free Coaching For Scs OBCs And Beneficiaries Of PM Cares Children Scheme (Welfare Based Scheme)",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "education_level": null,
+    "category": [
+      "SC"
+    ],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Rs. 4,000 per month stipend for the duration of the course, not exceeding 12 months",
+    "eligibility": "g. Entrance examination tests for CPL courses/National Defence Academy and Combined Defence Services. 4. Category-wise Ratio of Candidates 3500 students will be selected under this scheme annually. The detailed bifurcation of these slots is in para 7(e) of Scheme Guidelines. 5. Eligibility criteria for students A. For students belonging to SCs and OBCs Category: a. Students belonging to SCs and OBCs, having total family income of Rs. 8.00 lakh or less per annum from all sources will be eligible for beneﬁts under the Scheme. b. SCs/OBCs candidate belonging to a Minority community may apply under the similar scheme(s) of Ministry of Minority Affairs, or the State Govts., as the case may be. c. Income Certificate: Income declaration of self-employed parents/guardian should be in the form of a certificate issued by a Revenue Officer not below the rank of Tehsildar. Employed parents/guardians are required to obtain income certificate",
+    "documents": null,
+    "deadline": "31-10-2026",
+    "application_url": null,
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "specification_status": "success",
+    "added_from": "NSP",
+    "added_at": "2026-10-02T15:52:26.424297"
+  },
+  {
+    "id": "nsp_6af7d026f0c8",
+    "name": "Pre Matric Scholarship For Students With Disabilities (Welfare Based Scheme)",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "education_level": [
+      "pre_matric"
+    ],
+    "category": [],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": null,
+    "eligibility": "3 Broad Features of Scholarship Schemes 4-6 4 Pre-Matric Scholarship for Students with Disabilities 6 5 Post-Matric Scholarship for Students with Disabilities 6-7 6 Top Class Education Scholarship for Students with Disabilities 8-9 7 Procedure of Applications and Selection for Pre-Matric, Post- Matric and Top Class Scholarship schemes 9-10 8 Duration and Renewal of Scholarship/Award 10 9 Other Conditions 10-11 10 Mode of Disbursal of Scholarship 11 11 Monitoring 11-12 12 National Fellowship for Persons with Disabilities 12-16 13 National Overseas Scholarship 16-24",
+    "documents": null,
+    "deadline": "31-10-2026",
+    "application_url": null,
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "specification_status": "success",
+    "added_from": "NSP",
+    "added_at": "2026-10-02T15:52:26.424297"
+  },
+  {
+    "id": "nsp_89ad4defb963",
+    "name": "Post Matric Scholarship For Students With Disabilities (Welfare Based Scheme)",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "education_level": [
+      "post_matric"
+    ],
+    "category": [],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": null,
+    "eligibility": "3 Broad Features of Scholarship Schemes 4-6 4 Pre-Matric Scholarship for Students with Disabilities 6 5 Post-Matric Scholarship for Students with Disabilities 6-7 6 Top Class Education Scholarship for Students with Disabilities 8-9 7 Procedure of Applications and Selection for Pre-Matric, Post- Matric and Top Class Scholarship schemes 9-10 8 Duration and Renewal of Scholarship/Award 10 9 Other Conditions 10-11 10 Mode of Disbursal of Scholarship 11 11 Monitoring 11-12 12 National Fellowship for Persons with Disabilities 12-16 13 National Overseas Scholarship 16-24",
+    "documents": null,
+    "deadline": "31-10-2026",
+    "application_url": null,
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "specification_status": "success",
+    "added_from": "NSP",
+    "added_at": "2026-10-02T15:52:26.424297"
+  },
+  {
+    "id": "nsp_eec735e24e24",
+    "name": "Scholarship For Top Class Education For Students With Disabilities (Welfare Based Scheme)",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "education_level": null,
+    "category": [],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": null,
+    "eligibility": "3 Broad Features of Scholarship Schemes 4-6 4 Pre-Matric Scholarship for Students with Disabilities 6 5 Post-Matric Scholarship for Students with Disabilities 6-7 6 Top Class Education Scholarship for Students with Disabilities 8-9 7 Procedure of Applications and Selection for Pre-Matric, Post- Matric and Top Class Scholarship schemes 9-10 8 Duration and Renewal of Scholarship/Award 10 9 Other Conditions 10-11 10 Mode of Disbursal of Scholarship 11 11 Monitoring 11-12 12 National Fellowship for Persons with Disabilities 12-16 13 National Overseas Scholarship 16-24",
+    "documents": null,
+    "deadline": "31-10-2026",
+    "application_url": null,
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "specification_status": "success",
+    "added_from": "NSP",
+    "added_at": "2026-10-02T15:52:26.424297"
+  },
+  {
+    "id": "nsp_ea2eaa849402",
+    "name": "Financial Support To The Students Of NER For Higher Professional Courses(NEC Merit Scholarship) (Merit Based Scheme)",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "education_level": [
+      "ug",
+      "pg"
+    ],
+    "category": [],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": null,
+    "eligibility": "3.1 The scholarship is open only to a student who i s a permanent resident of any of the North Eastern States. 3.2 For candidates belonging to Academic Year 2020 -21 and onwards , the scholarship under this scheme shall be disbursed only through National Scholarship Portal (NSP). However, t he students, who already have been receiving scholarship before th ese rules coming into force, shall continue to receive their scholarships as per the prevailing procedure till end of their scholarships tenure. 3.3 Once selected, the scholarship shall be ava ilable to a selected student for the prescribed duration of a course subject to fulfillment of renewal conditions, as specified under Para 6 of these rules. Extension of scholarship beyond the prescribed period of study will not be entertained. Note 1: - [Student enrolled in integrated course will be entitled to receive the scholarship for the full duration of the course as per the admissible rates at para 7.1.] Note 2: - [The scholarship for M.Phil. will be available for 2 years and for Ph.D",
+    "documents": null,
+    "deadline": "31-10-2026",
+    "application_url": null,
+    "last_checked": "2026-10-02T09:49:23.432453+00:00",
+    "specification_status": "success",
+    "added_from": "NSP",
+    "added_at": "2026-10-02T15:52:26.424297"
+  },
+  {
+    "id": "nsp_cec3740816fd",
+    "name": "Prime Minister'S Scholarship Scheme For Ministry Of Railways (Merit Based Scheme)",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "education_level": [
+      "ug"
+    ],
+    "category": [],
+    "gender": null,
+    "state": null,
+    "income_limit": null,
+    "minimum_marks": null,
+    "benefit": "Rs. 2,500 per month for male students; Rs. 3,000 per month for female students",
+    "eligibility": "iv) Consolidate the information received from Colleges/Institutions and prepare merit list for fresh applicants according to quota allotted to each zonal Railways as per Annexure -I. In case there is vacancy in the quota of a zonal railway, it is filled up by excess candidates of other railways by preparing combined merit list. List of applicants selected under renewal category is also prepared. v) List of selected applicants along with bank particulars will be sent on line to PFMS. vi) Calcula te total scholarship amount required to be sanctioned under PMSS and process for credit/ transfer of scholarship directly into the bank account of the beneficiaries through Public Financial Management System (PFMS). vii) PFMS - Validate bank accounts of the selected",
+    "documents": [
+      "Following documents in the respective category are mandatorily required to be submitted/",
+      "uploaded by the applicant for applying under PMSS:",
+      "For Fresh Applicant:",
+      "i. Service Certificate issued by respective offices of the serving personnel for category IV. (As",
+      "per Annexure II).",
+      "ii. A copy of PPO/Discharge certificate/book for Categories I, II and III.",
+      "iii. Applicants are required to upload scanned copy of the mark -sheet/Grade card of MEQ i.e.",
+      "10+2/ Diploma/Graduation (as the case may be)."
+    ],
+    "deadline": "31-10-2026",
+    "application_url": null,
+    "last_checked": "2026-10-02T09:49:23.432453+00:00",
+    "specification_status": "success",
+    "added_from": "NSP",
+    "added_at": "2026-10-02T15:52:26.424297"
+  }
+]

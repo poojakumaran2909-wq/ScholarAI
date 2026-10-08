@@ -1,0 +1,20 @@
+[
+  {
+    "name": "National Scholarship Portal",
+    "url": "https://scholarships.gov.in/",
+    "type": "official",
+    "enabled": true
+  },
+  {
+    "name": "AICTE",
+    "url": "https://www.aicte-india.org/",
+    "type": "official",
+    "enabled": true
+  },
+  {
+    "name": "UGC",
+    "url": "https://www.ugc.gov.in/",
+    "type": "official",
+    "enabled": true
+  }
+]

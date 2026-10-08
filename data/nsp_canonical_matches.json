@@ -1,0 +1,604 @@
+{
+  "summary": {
+    "master_count": 43,
+    "nsp_count": 31,
+    "likely_duplicates": 11,
+    "needs_review": 1,
+    "new_scholarships": 19
+  },
+  "likely_duplicates": [
+    {
+      "nsp_id": "nsp_d850303a9bf0",
+      "nsp_name": "AICTE - Swanath Scholarship Scheme ( Technical Degree) (Welfare Based Scheme)",
+      "nsp_canonical_family": "aicte_swanath",
+      "classification": "likely_duplicate",
+      "reason": "same_canonical_family",
+      "best_match": {
+        "master_id": "aicte_swanath",
+        "master_name": "AICTE Swanath Scholarship Scheme for Orphans",
+        "canonical_family": "aicte_swanath",
+        "nsp_canonical_family": "aicte_swanath",
+        "name_score": 0.8193,
+        "semantic_score": 0.7376,
+        "final_score": 1.0162,
+        "same_canonical_family": true,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_ef7702e0cf31",
+      "nsp_name": "AICTE - Pragati Scholarship Scheme For Girl Students ( Technical Degree) (Merit Based Scheme)",
+      "nsp_canonical_family": "aicte_pragati",
+      "classification": "likely_duplicate",
+      "reason": "same_canonical_family",
+      "best_match": {
+        "master_id": "aicte_pragati",
+        "master_name": "AICTE Pragati Scholarship Scheme for Girls",
+        "canonical_family": "aicte_pragati",
+        "nsp_canonical_family": "aicte_pragati",
+        "name_score": 0.9231,
+        "semantic_score": 0.9355,
+        "final_score": 1.1812,
+        "same_canonical_family": true,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_52405e9cddb9",
+      "nsp_name": "AICTE - Pragati Scholarship Scheme For Girl Students ( Technical Diploma) (Merit Based Scheme)",
+      "nsp_canonical_family": "aicte_pragati",
+      "classification": "likely_duplicate",
+      "reason": "same_canonical_family",
+      "best_match": {
+        "master_id": "aicte_pragati",
+        "master_name": "AICTE Pragati Scholarship Scheme for Girls",
+        "canonical_family": "aicte_pragati",
+        "nsp_canonical_family": "aicte_pragati",
+        "name_score": 0.913,
+        "semantic_score": 0.9294,
+        "final_score": 1.1737,
+        "same_canonical_family": true,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_41eec60614e8",
+      "nsp_name": "AICTE - Saksham Scholarship Scheme For Specially Abled Student ( Technical Diploma) (Welfare Based Scheme)",
+      "nsp_canonical_family": "aicte_saksham",
+      "classification": "likely_duplicate",
+      "reason": "same_canonical_family",
+      "best_match": {
+        "master_id": "aicte_saksham",
+        "master_name": "AICTE Saksham Scholarship Scheme for Differently-Abled Students",
+        "canonical_family": "aicte_saksham",
+        "nsp_canonical_family": "aicte_saksham",
+        "name_score": 0.7937,
+        "semantic_score": 0.8891,
+        "final_score": 1.1057,
+        "same_canonical_family": true,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_e35def6b84bf",
+      "nsp_name": "AICTE - Saksham Scholarship Scheme For Specially Abled Student ( Technical Degree) (Welfare Based Scheme)",
+      "nsp_canonical_family": "aicte_saksham",
+      "classification": "likely_duplicate",
+      "reason": "same_canonical_family",
+      "best_match": {
+        "master_id": "aicte_saksham",
+        "master_name": "AICTE Saksham Scholarship Scheme for Differently-Abled Students",
+        "canonical_family": "aicte_saksham",
+        "nsp_canonical_family": "aicte_saksham",
+        "name_score": 0.8,
+        "semantic_score": 0.8877,
+        "final_score": 1.107,
+        "same_canonical_family": true,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_4fb1cb12166c",
+      "nsp_name": "AICTE - Swanath Scholarship Scheme (Technical Diploma) (Welfare Based Scheme)",
+      "nsp_canonical_family": "aicte_swanath",
+      "classification": "likely_duplicate",
+      "reason": "same_canonical_family",
+      "best_match": {
+        "master_id": "aicte_swanath",
+        "master_name": "AICTE Swanath Scholarship Scheme for Orphans",
+        "canonical_family": "aicte_swanath",
+        "nsp_canonical_family": "aicte_swanath",
+        "name_score": 0.8333,
+        "semantic_score": 0.7385,
+        "final_score": 1.0217,
+        "same_canonical_family": true,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_a3af6f522ee7",
+      "nsp_name": "National Scholarship For Post Graduate Studies (Merit Based Scheme)",
+      "nsp_canonical_family": "national_pg_studies",
+      "classification": "likely_duplicate",
+      "reason": "same_canonical_family",
+      "best_match": {
+        "master_id": "ugc_258c66a729e6",
+        "master_name": "National Scholarship for Post Graduate Studies",
+        "canonical_family": "national_pg_studies",
+        "nsp_canonical_family": "national_pg_studies",
+        "name_score": 1.0,
+        "semantic_score": 0.9081,
+        "final_score": 1.1903,
+        "same_canonical_family": true,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_7a1a6017a53c",
+      "nsp_name": "Ishan Uday Special Scholarship Scheme For NER (Merit Based Scheme)",
+      "nsp_canonical_family": "ishan_uday",
+      "classification": "likely_duplicate",
+      "reason": "same_canonical_family",
+      "best_match": {
+        "master_id": "ishan_uday_ne",
+        "master_name": "Ishan Uday Special Scholarship Scheme for North Eastern Region",
+        "canonical_family": "ishan_uday",
+        "nsp_canonical_family": "ishan_uday",
+        "name_score": 1.0,
+        "semantic_score": 0.8193,
+        "final_score": 1.1326,
+        "same_canonical_family": true,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_4e1cd16c47ad",
+      "nsp_name": "National Means Cum Merit Scholarship (Merit Based Scheme)",
+      "nsp_canonical_family": "nmmss",
+      "classification": "likely_duplicate",
+      "reason": "same_canonical_family",
+      "best_match": {
+        "master_id": "nmmss_means_merit",
+        "master_name": "National Means-cum-Merit Scholarship Scheme (NMMSS)",
+        "canonical_family": "nmmss",
+        "nsp_canonical_family": "nmmss",
+        "name_score": 0.6207,
+        "semantic_score": 0.8669,
+        "final_score": 1.0307,
+        "same_canonical_family": true,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_314001f8efea",
+      "nsp_name": "PM-USP – Central Sector Scheme Of Scholarship For College And University Students (CSSS) (Merit Based Scheme)",
+      "nsp_canonical_family": "csss",
+      "classification": "likely_duplicate",
+      "reason": "same_canonical_family",
+      "best_match": {
+        "master_id": "csss_merit",
+        "master_name": "Central Sector Scheme of Scholarship for College and University Students (CSSS)",
+        "canonical_family": "csss",
+        "nsp_canonical_family": "csss",
+        "name_score": 0.9659,
+        "semantic_score": 0.8435,
+        "final_score": 1.1363,
+        "same_canonical_family": true,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_cd3c03dae47b",
+      "nsp_name": "National Fellowship And Scholarship For Higher Education Of ST Students - Scholarship (Formally Top Class Education For Schedule Tribe Students) (Merit Based Scheme)",
+      "nsp_canonical_family": "st_higher_education",
+      "classification": "likely_duplicate",
+      "reason": "same_canonical_family",
+      "best_match": {
+        "master_id": "national_fellowship_st",
+        "master_name": "National Fellowship and Scholarship for ST Students",
+        "canonical_family": "st_higher_education",
+        "nsp_canonical_family": "st_higher_education",
+        "name_score": 0.5604,
+        "semantic_score": 0.8265,
+        "final_score": 0.9834,
+        "same_canonical_family": true,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    }
+  ],
+  "needs_review": [
+    {
+      "nsp_id": "nsp_ea241e39bbb8",
+      "nsp_name": "PM YASASVI Central Sector Scheme Of Top Class Education In Schools For OBC, EBC And DNT Students (Merit Based Scheme)",
+      "nsp_canonical_family": "pm_yasasvi_school",
+      "classification": "needs_review",
+      "reason": "possible_duplicate",
+      "best_match": {
+        "master_id": "pm_yasasvi_school",
+        "master_name": "PM-YASASVI Top Class School Scholarship",
+        "canonical_family": "pm_yasasvi_school",
+        "nsp_canonical_family": "pm_yasasvi_school",
+        "name_score": 0.4478,
+        "semantic_score": 0.618,
+        "final_score": 0.8084,
+        "same_canonical_family": true,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    }
+  ],
+  "new_scholarships": [
+    {
+      "nsp_id": "nsp_ea1736755042",
+      "nsp_name": "Prime Minister'S Scholarship Scheme For Wards Of States/UTs Police Personnel Martyred During Terror/Naxal Attacks (Merit Based Scheme)",
+      "nsp_canonical_family": null,
+      "classification": "new",
+      "reason": "no_matching_family",
+      "best_match": {
+        "master_id": "nmmss_means_merit",
+        "master_name": "National Means-cum-Merit Scholarship Scheme (NMMSS)",
+        "canonical_family": "nmmss",
+        "nsp_canonical_family": null,
+        "name_score": 0.3523,
+        "semantic_score": 0.4754,
+        "final_score": 0.4323,
+        "same_canonical_family": false,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_5ad174760ff9",
+      "nsp_name": "Prime Minister'S Scholarship Scheme For Central Armed Police Forces And Assam Rifles (Merit Based Scheme)",
+      "nsp_canonical_family": null,
+      "classification": "new",
+      "reason": "no_matching_family",
+      "best_match": {
+        "master_id": "ishan_uday_ne",
+        "master_name": "Ishan Uday Special Scholarship Scheme for North Eastern Region",
+        "canonical_family": "ishan_uday",
+        "nsp_canonical_family": null,
+        "name_score": 0.5068,
+        "semantic_score": 0.563,
+        "final_score": 0.5434,
+        "same_canonical_family": false,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_3e4b7d56155b",
+      "nsp_name": "PM USP Special Scholarship Scheme For Jammu Kashmir And Ladakh (Merit Based Scheme)",
+      "nsp_canonical_family": null,
+      "classification": "new",
+      "reason": "no_matching_family",
+      "best_match": {
+        "master_id": "ishan_uday_ne",
+        "master_name": "Ishan Uday Special Scholarship Scheme for North Eastern Region",
+        "canonical_family": "ishan_uday",
+        "nsp_canonical_family": null,
+        "name_score": 0.629,
+        "semantic_score": 0.6213,
+        "final_score": 0.624,
+        "same_canonical_family": false,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_9b4851080ab1",
+      "nsp_name": "Financial Assistance For Education To The Wards Of Beedi/Cine/Iomc/Lsdm- Pre Matric (Welfare Based Scheme)",
+      "nsp_canonical_family": null,
+      "classification": "new",
+      "reason": "no_matching_family",
+      "best_match": {
+        "master_id": "top_class_education_sc",
+        "master_name": "Top Class Education Scheme for SC Students",
+        "canonical_family": "sc_top_class",
+        "nsp_canonical_family": null,
+        "name_score": 0.4355,
+        "semantic_score": 0.4299,
+        "final_score": 0.4319,
+        "same_canonical_family": false,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_6aa86af05195",
+      "nsp_name": "Financial Assistance For Education To The Wards Of Beedi/Cine/Iomc/Lsdm- Post Matric (Welfare Based Scheme)",
+      "nsp_canonical_family": null,
+      "classification": "new",
+      "reason": "no_matching_family",
+      "best_match": {
+        "master_id": "top_class_education_sc",
+        "master_name": "Top Class Education Scheme for SC Students",
+        "canonical_family": "sc_top_class",
+        "nsp_canonical_family": null,
+        "name_score": 0.416,
+        "semantic_score": 0.4161,
+        "final_score": 0.4161,
+        "same_canonical_family": false,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_8d9ef2843d9b",
+      "nsp_name": "PM YASASVI Central Sector Scheme Of Top Class Education In College For OBC, EBC And DNT Students (Merit Based Scheme)",
+      "nsp_canonical_family": "pm_yasasvi_college",
+      "classification": "new",
+      "reason": "no_matching_family",
+      "best_match": {
+        "master_id": "top_class_education_sc",
+        "master_name": "Top Class Education Scheme for SC Students",
+        "canonical_family": "sc_top_class",
+        "nsp_canonical_family": "pm_yasasvi_college",
+        "name_score": 0.5547,
+        "semantic_score": 0.6594,
+        "final_score": 0.6227,
+        "same_canonical_family": false,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_a88b2d772f7b",
+      "nsp_name": "National Renewable Energy Fellowship Scheme (Merit Based Scheme)",
+      "nsp_canonical_family": null,
+      "classification": "new",
+      "reason": "no_matching_family",
+      "best_match": {
+        "master_id": "nmmss_means_merit",
+        "master_name": "National Means-cum-Merit Scholarship Scheme (NMMSS)",
+        "canonical_family": "nmmss",
+        "nsp_canonical_family": null,
+        "name_score": 0.3857,
+        "semantic_score": 0.5731,
+        "final_score": 0.5075,
+        "same_canonical_family": false,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_5b9542d76118",
+      "nsp_name": "Stipend Scheme For Under Graduate And Post Graduate Studies In Indian Statistical Institute-Kolkata (Merit Based Scheme)",
+      "nsp_canonical_family": null,
+      "classification": "new",
+      "reason": "no_matching_family",
+      "best_match": {
+        "master_id": "ugc_258c66a729e6",
+        "master_name": "National Scholarship for Post Graduate Studies",
+        "canonical_family": "national_pg_studies",
+        "nsp_canonical_family": null,
+        "name_score": 0.4507,
+        "semantic_score": 0.4951,
+        "final_score": 0.4796,
+        "same_canonical_family": false,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_f8081f69163b",
+      "nsp_name": "Icar National Talent Scholarship(Nts-Ug) (Merit Based Scheme)",
+      "nsp_canonical_family": null,
+      "classification": "new",
+      "reason": "no_matching_family",
+      "best_match": {
+        "master_id": "nmmss_means_merit",
+        "master_name": "National Means-cum-Merit Scholarship Scheme (NMMSS)",
+        "canonical_family": "nmmss",
+        "nsp_canonical_family": null,
+        "name_score": 0.5042,
+        "semantic_score": 0.7105,
+        "final_score": 0.6383,
+        "same_canonical_family": false,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_47b54c980354",
+      "nsp_name": "Icar Post Graduate Scholarship(Pgs) (Merit Based Scheme)",
+      "nsp_canonical_family": null,
+      "classification": "new",
+      "reason": "no_matching_family",
+      "best_match": {
+        "master_id": "up_scholarship_postmatric",
+        "master_name": "Uttar Pradesh Post-Matric Scholarship",
+        "canonical_family": null,
+        "nsp_canonical_family": null,
+        "name_score": 0.6,
+        "semantic_score": 0.675,
+        "final_score": 0.6488,
+        "same_canonical_family": false,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_dcfb36d658fb",
+      "nsp_name": "Icar National Talent Scholarship(Nts-Pg) (Merit Based Scheme)",
+      "nsp_canonical_family": null,
+      "classification": "new",
+      "reason": "no_matching_family",
+      "best_match": {
+        "master_id": "nmmss_means_merit",
+        "master_name": "National Means-cum-Merit Scholarship Scheme (NMMSS)",
+        "canonical_family": "nmmss",
+        "nsp_canonical_family": null,
+        "name_score": 0.5042,
+        "semantic_score": 0.6918,
+        "final_score": 0.6262,
+        "same_canonical_family": false,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_5d19ad1f2bd8",
+      "nsp_name": "Icar Junior Research Fellowships(Jrf) And Senior Research Fellowships(Srf) (Merit Based Scheme)",
+      "nsp_canonical_family": null,
+      "classification": "new",
+      "reason": "no_matching_family",
+      "best_match": {
+        "master_id": "national_fellowship_st",
+        "master_name": "National Fellowship and Scholarship for ST Students",
+        "canonical_family": "st_higher_education",
+        "nsp_canonical_family": null,
+        "name_score": 0.4878,
+        "semantic_score": 0.5683,
+        "final_score": 0.5401,
+        "same_canonical_family": false,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_d655aaf09da7",
+      "nsp_name": "Central Sector Scholarship Of Top Class Education For SC Students (Merit Based Scheme)",
+      "nsp_canonical_family": "csss",
+      "classification": "new",
+      "reason": "no_matching_family",
+      "best_match": {
+        "master_id": "top_class_education_sc",
+        "master_name": "Top Class Education Scheme for SC Students",
+        "canonical_family": "sc_top_class",
+        "nsp_canonical_family": "csss",
+        "name_score": 0.6542,
+        "semantic_score": 0.8108,
+        "final_score": 0.756,
+        "same_canonical_family": false,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_43a380386794",
+      "nsp_name": "Free Coaching For Scs OBCs And Beneficiaries Of PM Cares Children Scheme (Welfare Based Scheme)",
+      "nsp_canonical_family": null,
+      "classification": "new",
+      "reason": "no_matching_family",
+      "best_match": {
+        "master_id": "top_class_education_sc",
+        "master_name": "Top Class Education Scheme for SC Students",
+        "canonical_family": "sc_top_class",
+        "nsp_canonical_family": null,
+        "name_score": 0.3158,
+        "semantic_score": 0.4455,
+        "final_score": 0.4001,
+        "same_canonical_family": false,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_6af7d026f0c8",
+      "nsp_name": "Pre Matric Scholarship For Students With Disabilities (Welfare Based Scheme)",
+      "nsp_canonical_family": null,
+      "classification": "new",
+      "reason": "no_matching_family",
+      "best_match": {
+        "master_id": "sc_st_pre_matric",
+        "master_name": "Pre-Matric Scholarship for SC/ST Students",
+        "canonical_family": null,
+        "nsp_canonical_family": null,
+        "name_score": 0.7447,
+        "semantic_score": 0.7652,
+        "final_score": 0.758,
+        "same_canonical_family": false,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_89ad4defb963",
+      "nsp_name": "Post Matric Scholarship For Students With Disabilities (Welfare Based Scheme)",
+      "nsp_canonical_family": null,
+      "classification": "new",
+      "reason": "no_matching_family",
+      "best_match": {
+        "master_id": "sc_st_post_matric",
+        "master_name": "Post-Matric Scholarship for SC/ST Students",
+        "canonical_family": null,
+        "nsp_canonical_family": null,
+        "name_score": 0.75,
+        "semantic_score": 0.7538,
+        "final_score": 0.7524,
+        "same_canonical_family": false,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_eec735e24e24",
+      "nsp_name": "Scholarship For Top Class Education For Students With Disabilities (Welfare Based Scheme)",
+      "nsp_canonical_family": null,
+      "classification": "new",
+      "reason": "no_matching_family",
+      "best_match": {
+        "master_id": "karnataka_disability_udid",
+        "master_name": "Karnataka Scholarship for Students with Disabilities",
+        "canonical_family": null,
+        "nsp_canonical_family": null,
+        "name_score": 0.7119,
+        "semantic_score": 0.7008,
+        "final_score": 0.7047,
+        "same_canonical_family": false,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_ea2eaa849402",
+      "nsp_name": "Financial Support To The Students Of NER For Higher Professional Courses(NEC Merit Scholarship) (Merit Based Scheme)",
+      "nsp_canonical_family": null,
+      "classification": "new",
+      "reason": "no_matching_family",
+      "best_match": {
+        "master_id": "national_overseas_sc",
+        "master_name": "National Overseas Scholarship for SC Students",
+        "canonical_family": null,
+        "nsp_canonical_family": null,
+        "name_score": 0.3333,
+        "semantic_score": 0.5758,
+        "final_score": 0.491,
+        "same_canonical_family": false,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    },
+    {
+      "nsp_id": "nsp_cec3740816fd",
+      "nsp_name": "Prime Minister'S Scholarship Scheme For Ministry Of Railways (Merit Based Scheme)",
+      "nsp_canonical_family": null,
+      "classification": "new",
+      "reason": "no_matching_family",
+      "best_match": {
+        "master_id": "minority_merit_cum_means",
+        "master_name": "Merit-cum-Means Scholarship for Minority Students",
+        "canonical_family": null,
+        "nsp_canonical_family": null,
+        "name_score": 0.5505,
+        "semantic_score": 0.5206,
+        "final_score": 0.5311,
+        "same_canonical_family": false,
+        "education_conflict": false,
+        "category_conflict": false
+      }
+    }
+  ]
+}

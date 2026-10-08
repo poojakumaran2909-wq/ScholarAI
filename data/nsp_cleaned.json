@@ -1,0 +1,1364 @@
+[
+  {
+    "id": "nsp_ea1736755042",
+    "name": "Prime Minister'S Scholarship Scheme For Wards Of States/UTs Police Personnel Martyred During Terror/Naxal Attacks (Merit Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [],
+    "income_max": null,
+    "marks_min": null,
+    "benefit": null,
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [],
+    "eligibility": null,
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/warb/PMSS_Guidelines_1197_3001-2023-24.pdf",
+    "scheme_type": "merit_based",
+    "notes": null,
+    "active": true,
+    "specification_status": "empty",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [],
+    "special_requirements": [],
+    "data_quality": {
+      "quality_status": "incomplete",
+      "quality_flags": [
+        "education_needs_review",
+        "benefit_needs_review",
+        "empty_specification"
+      ],
+      "normalization_notes": [
+        "Education level could not be determined with sufficient confidence.",
+        "No reliable benefit amount/description was available.",
+        "Specification was fetched but contained no usable extracted information."
+      ]
+    },
+    "normalization": {
+      "benefit_source": "missing"
+    }
+  },
+  {
+    "id": "nsp_5ad174760ff9",
+    "name": "Prime Minister'S Scholarship Scheme For Central Armed Police Forces And Assam Rifles (Merit Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [],
+    "income_max": null,
+    "marks_min": null,
+    "benefit": null,
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [],
+    "eligibility": null,
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/warb/PMSS_Guidelines_1197_3001-2023-24.pdf",
+    "scheme_type": "merit_based",
+    "notes": null,
+    "active": true,
+    "specification_status": "empty",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [],
+    "special_requirements": [],
+    "data_quality": {
+      "quality_status": "incomplete",
+      "quality_flags": [
+        "education_needs_review",
+        "benefit_needs_review",
+        "empty_specification"
+      ],
+      "normalization_notes": [
+        "Education level could not be determined with sufficient confidence.",
+        "No reliable benefit amount/description was available.",
+        "Specification was fetched but contained no usable extracted information."
+      ]
+    },
+    "normalization": {
+      "benefit_source": "missing"
+    }
+  },
+  {
+    "id": "nsp_d850303a9bf0",
+    "name": "AICTE - Swanath Scholarship Scheme ( Technical Degree) (Welfare Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [
+      "ug"
+    ],
+    "income_max": 800000.0,
+    "marks_min": null,
+    "benefit": "Rs. 50,000 per annum for every year of study",
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [
+      "A. For Orphan Candidates:",
+      "(i) Death Certificates of both Father & Mother (if available)",
+      "A certificate issued by Tehsildar / S D M as per enclosed format (Annexure – I).",
+      "(ii) Bonafide Certificate issued by the institution.",
+      "(iii) 10+2 / equivalent and 10th Mark sheet for Degree Level",
+      "(iv) 10th /equivalent Mark sheet for Diploma Level",
+      "(v) Category Certificate (SC/ST/OBC-NCL)",
+      "B. For Candidates whose either or both Parents Died due to Covid 19:",
+      "(i) Death Certificate of Father/Mother or both explicitly mentioning that the death was due",
+      "to Covid-19.",
+      "(ii) If one parent (Father or Mother) is alive, current year income certificate, explicitly",
+      "mentioning that income of family less than 8 Lakh, issued by Competent Authority.",
+      "(iii) Bonafide Certificate issued by the institution.",
+      "(iv) 10+2/equivalent and 10th Mark sheet for Degree Level",
+      "(v) 10th /equivalent Mark sheet for Diploma Level",
+      "(vi) Category Certificate (SC/ST/OBC-NCL)",
+      "C. For Wards of Armed Forces and Central Paramilitary Forces martyred in action (Shaheed)",
+      "(i) Death Certificate.",
+      "(ii) Shaheed Certificate issued by the Armed Forces/ Central Paramilitary Forces",
+      "(vi) Current year income certificate, explicitly mentioning that income of family less than 8",
+      "Lakh, issued by Competent Authority.",
+      "(vii) Category Certificate (SC/ST/OBC-NCL)",
+      "11.0 TERMS AND CONDITIONS:",
+      "1) Applications will be invited once in a year through National e-Scholarship Portal of the Government of",
+      "2) Incomplete applications will be summarily rejected. Only verified online applications will be considered"
+    ],
+    "eligibility": "1) The candidate should be from any one of the following categories: (i) Orphan OR (ii) Either or both parents died due to Covid 19 OR (iii) Wards of Armed Forces and Central Paramilitary Forces martyred in action (Shaheed) OR (iv) Parent is suffering from critical life threatening disease (Like Cancer etc.)/ Died or severely disabled (above 80%) in accident (as per RPwD Act 2016) AND 2) Family income from all sources should not be more than Rs. 8 lakh per annum during the financial year of the application. A valid income certificate issued by State/UT Government is to be enclosed. AND 3) The candidate should be currently studying in the AICTE Approved institutions and courses at Degree/ Diploma level in regular mode (in 1st /2nd / 3rd /4th year).",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3039_G.pdf",
+    "scheme_type": "welfare_based",
+    "notes": "Scheme type: welfare_based. Application information references the National Scholarship Portal. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [
+      "ug"
+    ],
+    "special_requirements": [],
+    "data_quality": {
+      "quality_status": "good",
+      "quality_flags": [],
+      "normalization_notes": []
+    },
+    "normalization": {
+      "benefit_source": "normalized"
+    }
+  },
+  {
+    "id": "nsp_3e4b7d56155b",
+    "name": "PM USP Special Scholarship Scheme For Jammu Kashmir And Ladakh (Merit Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [],
+    "income_max": 800000.0,
+    "marks_min": null,
+    "benefit": null,
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [],
+    "eligibility": "(i) Candidates should be domicile of Union Territories of J&K and Ladakh. (ii) Students must have passed 12th examination from JKBOSE or CBSE affiliated schools located in UTs of J&K and Ladakh. (iii) Having family income of Rs. 8.00 Lakh or less per annum. (iv) Candidates who want to take admission under Lateral Entry Scheme have to pass Diploma in Engineering from the Polytechnic Institutes recognized by Directorate of Technical Education (DTE), UTs of J&K and Ladakh. (v) Candidates are compulsorily required to apply online on the AICTE web -portal and",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/PM_USPY(SSSJKL)SchemeSpecifications.pdf",
+    "scheme_type": "merit_based",
+    "notes": "Scheme type: merit_based. Application information references the National Scholarship Portal. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [
+      "ug"
+    ],
+    "special_requirements": [
+      "jammu_kashmir_ladakh"
+    ],
+    "data_quality": {
+      "quality_status": "review",
+      "quality_flags": [
+        "benefit_needs_review"
+      ],
+      "normalization_notes": [
+        "No reliable benefit amount/description was available."
+      ]
+    },
+    "normalization": {
+      "benefit_source": "missing"
+    }
+  },
+  {
+    "id": "nsp_ef7702e0cf31",
+    "name": "AICTE - Pragati Scholarship Scheme For Girl Students ( Technical Degree) (Merit Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [
+      "ug"
+    ],
+    "income_max": 800000.0,
+    "marks_min": null,
+    "benefit": "Rs. 50,000 per annum for every year of study",
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [],
+    "eligibility": "1) The girl candidate should be admitted to First year of Degree level course OR Second year of Degree level course through lateral entry in any of the AICTE approved Institution of respective year. 2) Maximum two girl child per family are eligible. 3) Family income from all sources should not be more than Rs. 8 lakh per annum during the current financial year. A valid income certificate issued by State/ UT Government need to be enclosed. 3.0 NUMBER OF SCHOLARSHIPS: 1) A total of 5,000 scholarships are earmarked per annum under this scheme for pursuing First year of Degree level course OR Second year of Degree level course through lateral entry in any of the AICTE approved Institution s. The number of scholarships are transferred into AICTE – PRAGATI SCHOLARSHIP S CHEME FOR GIRL STUDENTS (DIPLOMA ), if sufficient number of online applications are not received.",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2010_G.pdf",
+    "scheme_type": "merit_based",
+    "notes": "Scheme type: merit_based. Application information references the National Scholarship Portal. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [
+      "ug"
+    ],
+    "special_requirements": [
+      "female"
+    ],
+    "data_quality": {
+      "quality_status": "good",
+      "quality_flags": [],
+      "normalization_notes": []
+    },
+    "normalization": {
+      "benefit_source": "normalized"
+    }
+  },
+  {
+    "id": "nsp_52405e9cddb9",
+    "name": "AICTE - Pragati Scholarship Scheme For Girl Students ( Technical Diploma) (Merit Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [
+      "diploma"
+    ],
+    "income_max": 800000.0,
+    "marks_min": null,
+    "benefit": "Rs. 50,000 per annum for every year of study",
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [],
+    "eligibility": "1) The girl candidate should be admitted to First year of Diploma level course OR Second year of Diploma level course through lateral entry in any of the AICTE approved Institution of respective year. 2) Maximum two girls child per family are eligible. 3) Family income from all sources should not be more than Rs. 8 lakh per annum during the current financial year. A valid income certificate issued by State/ UT Government need to be enclosed. 3.0 NUMBER OF SCHOLARSHIPS: 1) A total of 5,000 scholarships are earmarked per annum under this scheme for pursuing First year of Diploma level course OR Second year of Diploma level course through lateral entry in any of the AICTE approved Institution s. The number of scholarships are transferred into AICTE – PRAGATI SCHOLARSHIP SCHEME FOR GIRL STUDENTS (DEGREE), if sufficient number of online applications are not received.",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2011_G.pdf",
+    "scheme_type": "merit_based",
+    "notes": "Scheme type: merit_based. Application information references the National Scholarship Portal. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [
+      "diploma"
+    ],
+    "special_requirements": [
+      "female"
+    ],
+    "data_quality": {
+      "quality_status": "good",
+      "quality_flags": [],
+      "normalization_notes": []
+    },
+    "normalization": {
+      "benefit_source": "normalized"
+    }
+  },
+  {
+    "id": "nsp_41eec60614e8",
+    "name": "AICTE - Saksham Scholarship Scheme For Specially Abled Student ( Technical Diploma) (Welfare Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [
+      "diploma"
+    ],
+    "income_max": 800000.0,
+    "marks_min": null,
+    "benefit": "Rs. 50,000 per annum for every year of study",
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [],
+    "eligibility": "1) The candidate should be admitted to First year of Diploma level course OR Second year of Diploma level course through lateral entry in any of the AICTE approved Institution of respective year. 2) Specially-abled student, having disability of not less than 40%. 3) Family income from all sources should not be more than Rs. 8 lakh per annum during the current financial year. A valid income certificate issued by State /UT Government need to be enclosed. 3.0 NUMBER OF SCHOLARSHIPS: All eligible specially-abled student admitted to F irst year of Diploma level course OR Second year of Diploma level course through lateral entry in any of the AICTE approved Institution will get the scholarship.",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2013_G.pdf",
+    "scheme_type": "welfare_based",
+    "notes": "Scheme type: welfare_based. Application information references the National Scholarship Portal. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [
+      "diploma"
+    ],
+    "special_requirements": [
+      "disability"
+    ],
+    "data_quality": {
+      "quality_status": "good",
+      "quality_flags": [],
+      "normalization_notes": []
+    },
+    "normalization": {
+      "benefit_source": "normalized"
+    }
+  },
+  {
+    "id": "nsp_e35def6b84bf",
+    "name": "AICTE - Saksham Scholarship Scheme For Specially Abled Student ( Technical Degree) (Welfare Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [
+      "ug"
+    ],
+    "income_max": 800000.0,
+    "marks_min": null,
+    "benefit": "Rs. 50,000 per annum for every year of study",
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [],
+    "eligibility": "1) The candidate should be admitted to First year of Degree level course OR Second year of Degree level course through lateral entry in any of the AICTE approved Institution of respective year. 2) Specially-abled student, having disability of not less than 40%. 3) Family income from all sources should not be more than Rs. 8 lakh per annum during the current financial year. A valid income certificate issued by State /UT Government need to be enclosed. 3.0 NUMBER OF SCHOLARSHIPS: All eligible specially-abled student admitted to First year of Degree level course OR Second year of Degree level course through lateral entry in any of the AICTE approved Institution will get the scholarship.",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2012_G.pdf",
+    "scheme_type": "welfare_based",
+    "notes": "Scheme type: welfare_based. Application information references the National Scholarship Portal. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [
+      "ug"
+    ],
+    "special_requirements": [
+      "disability"
+    ],
+    "data_quality": {
+      "quality_status": "good",
+      "quality_flags": [],
+      "normalization_notes": []
+    },
+    "normalization": {
+      "benefit_source": "normalized"
+    }
+  },
+  {
+    "id": "nsp_4fb1cb12166c",
+    "name": "AICTE - Swanath Scholarship Scheme (Technical Diploma) (Welfare Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [
+      "diploma"
+    ],
+    "income_max": 800000.0,
+    "marks_min": null,
+    "benefit": "Rs. 50,000 per annum for every year of study",
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [
+      "A. For Orphan Candidates:",
+      "(i) Death Certificates of both Father & Mother (if available)",
+      "A certificate issued by Tehsildar / S D M as per enclosed format (Annexure – I).",
+      "(ii) Bonafide Certificate issued by the institution.",
+      "(iii) 10+2 / equivalent and 10th Mark sheet for Degree Level",
+      "(iv) 10th /equivalent Mark sheet for Diploma Level",
+      "(v) Category Certificate (SC/ST/OBC-NCL)",
+      "B. For Candidates whose either or both Parents Died due to Covid 19:",
+      "(i) Death Certificate of Father/Mother or both explicitly mentioning that the death was due",
+      "to Covid-19.",
+      "(ii) If one parent (Father or Mother) is alive, current year income certificate, explicitly",
+      "mentioning that income of family less than 8 Lakh, issued by Competent Authority.",
+      "(iii) Bonafide Certificate issued by the institution.",
+      "(iv) 10+2/equivalent and 10th Mark sheet for Degree Level",
+      "(v) 10th /equivalent Mark sheet for Diploma Level",
+      "(vi) Category Certificate (SC/ST/OBC-NCL)",
+      "C. For Wards of Armed Forces and Central Paramilitary Forces martyred in action (Shaheed)",
+      "(i) Death Certificate.",
+      "(ii) Shaheed Certificate issued by the Armed Forces/ Central Paramilitary Forces",
+      "(vi) Current year income certificate, explicitly mentioning that income of family less than 8",
+      "Lakh, issued by Competent Authority.",
+      "(vii) Category Certificate (SC/ST/OBC-NCL)",
+      "11.0 TERMS AND CONDITIONS:",
+      "1) Applications will be invited once in a year through National e-Scholarship Portal of the Government of",
+      "2) Incomplete applications will be summarily rejected. Only verified online applications will be considered"
+    ],
+    "eligibility": "1) The candidate should be from any one of the following categories: (i) Orphan OR (ii) Either or both parents died due to Covid 19 OR (iii) Wards of Armed Forces and Central Paramilitary Forces martyred in action (Shaheed) OR (iv) Parent is suffering from critical life threatening disease (Like Cancer etc.)/ Died or severely disabled (above 80%) in accident (as per RPwD Act 2016) AND 2) Family income from all sources should not be more than Rs. 8 lakh per annum during the financial year of the application. A valid income certificate issued by State/UT Government is to be enclosed. AND 3) The candidate should be currently studying in the AICTE Approved institutions and courses at Degree/ Diploma level in regular mode (in 1st /2nd / 3rd /4th year).",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3038_G.pdf",
+    "scheme_type": "welfare_based",
+    "notes": "Scheme type: welfare_based. Application information references the National Scholarship Portal. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [
+      "diploma"
+    ],
+    "special_requirements": [],
+    "data_quality": {
+      "quality_status": "good",
+      "quality_flags": [],
+      "normalization_notes": []
+    },
+    "normalization": {
+      "benefit_source": "normalized"
+    }
+  },
+  {
+    "id": "nsp_a3af6f522ee7",
+    "name": "National Scholarship For Post Graduate Studies (Merit Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [
+      "pg"
+    ],
+    "income_max": null,
+    "marks_min": null,
+    "benefit": null,
+    "deadline": "31-10-2026",
+    "open_date": "16-09-2026",
+    "documents": [],
+    "eligibility": "1. The scholarship is available to the students for the first PG Degree programme only. Students, who have already acquired any postgraduate degree, are not eligible to apply. 2. Only the students, who are already admitted in the first year of PG degree programme in an eligible university/college/institution, (hereinafter referred to as the ‘Institution’), are eligible to apply. 3. In case of integrated programmes, the scholarship shall be given for PG component only. 4. Only students who are below the age of 30 years of age as on the date of admission in the first semester/year of a PG programme are eligible to apply under these schemes. 5. The scholarship is available only for students who are admitted to PG degre e programme through ‘Regular/Full Time’ mode. The students, who are pursuing any Page 3 of 7 PG programme through open/distance/correspondence mode, private or part -time",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/Guidelines_NATIONAL_SCHOLARSHIP_FOR_POSTGRADUATE_STUDIES_UGC_2324.pdf",
+    "scheme_type": "merit_based",
+    "notes": "Scheme type: merit_based. Application information references the National Scholarship Portal. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [
+      "pg"
+    ],
+    "special_requirements": [],
+    "data_quality": {
+      "quality_status": "review",
+      "quality_flags": [
+        "benefit_needs_review"
+      ],
+      "normalization_notes": [
+        "No reliable benefit amount/description was available."
+      ]
+    },
+    "normalization": {
+      "benefit_source": "needs_review"
+    }
+  },
+  {
+    "id": "nsp_7a1a6017a53c",
+    "name": "Ishan Uday Special Scholarship Scheme For NER (Merit Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [],
+    "income_max": null,
+    "marks_min": null,
+    "benefit": null,
+    "deadline": "31-10-2026",
+    "open_date": "16-09-2026",
+    "documents": [],
+    "eligibility": "(I) The scholarship is open to those students who have passed Class XII or equivalent examination from a school situated within NER through a recognized Board of Education including Central Board of Secondary Education (CBSE), Indian Certificate of Secondary Education (ICSE), National Institute of Open Schooling (NIOS). (II) The scholarship is available for those students only, who are pursuing a recognized UG degree programmes as specified and notified by UGC from time to time. (III) Only the students, who are already admitted in the first year of UG degree programme in an eligible university/college/institution within India, are eligible to apply. In other words, a student who has secured admission in UG programme in the academic year 2020-21 will be eligible for selection in the year 2020-21 only. (IV) The scholarship is available to the students for first UG Degree only. Students, who have already acquired any degree, are not eligible to apply. (V) The scholarship will be given for the duratio n of study of UG programme as specified by UGC for each programme, from the start of class in the first year/semester. (VI) In case of ‘integrated’ and ‘dual degree’ programmes, the scholarship will be payable",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/Guidelines_ISHAN UDAY_2324.pdf",
+    "scheme_type": "merit_based",
+    "notes": "Scheme type: merit_based. Application information references the National Scholarship Portal. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [],
+    "special_requirements": [
+      "northeast"
+    ],
+    "data_quality": {
+      "quality_status": "review",
+      "quality_flags": [
+        "education_needs_review",
+        "benefit_needs_review"
+      ],
+      "normalization_notes": [
+        "Education level could not be determined with sufficient confidence.",
+        "No reliable benefit amount/description was available."
+      ]
+    },
+    "normalization": {
+      "benefit_source": "needs_review"
+    }
+  },
+  {
+    "id": "nsp_9b4851080ab1",
+    "name": "Financial Assistance For Education To The Wards Of Beedi/Cine/Iomc/Lsdm- Pre Matric (Welfare Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [
+      "pre_matric"
+    ],
+    "income_max": null,
+    "marks_min": null,
+    "benefit": null,
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [],
+    "eligibility": null,
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/Labour_Ministry_Guidelines_of_scholarhsips schemes.pdf",
+    "scheme_type": "welfare_based",
+    "notes": "Scheme type: welfare_based.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [
+      "pre_matric"
+    ],
+    "special_requirements": [],
+    "data_quality": {
+      "quality_status": "review",
+      "quality_flags": [
+        "benefit_needs_review"
+      ],
+      "normalization_notes": [
+        "No reliable benefit amount/description was available."
+      ]
+    },
+    "normalization": {
+      "benefit_source": "missing"
+    }
+  },
+  {
+    "id": "nsp_6aa86af05195",
+    "name": "Financial Assistance For Education To The Wards Of Beedi/Cine/Iomc/Lsdm- Post Matric (Welfare Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [
+      "post_matric"
+    ],
+    "income_max": null,
+    "marks_min": null,
+    "benefit": null,
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [],
+    "eligibility": null,
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/Labour_Ministry_Guidelines_of_scholarhsips schemes.pdf",
+    "scheme_type": "welfare_based",
+    "notes": "Scheme type: welfare_based.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [
+      "post_matric"
+    ],
+    "special_requirements": [],
+    "data_quality": {
+      "quality_status": "review",
+      "quality_flags": [
+        "benefit_needs_review"
+      ],
+      "normalization_notes": [
+        "No reliable benefit amount/description was available."
+      ]
+    },
+    "normalization": {
+      "benefit_source": "missing"
+    }
+  },
+  {
+    "id": "nsp_ea241e39bbb8",
+    "name": "PM YASASVI Central Sector Scheme Of Top Class Education In Schools For OBC, EBC And DNT Students (Merit Based Scheme)",
+    "level": null,
+    "category": [
+      "OBC",
+      "EBC",
+      "DNT"
+    ],
+    "class_range": null,
+    "education_levels": [],
+    "income_max": null,
+    "marks_min": null,
+    "benefit": null,
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [],
+    "eligibility": "scheme, procedure and selection ofcandidates and other terms and conditions along rvith the extent of support are provided, maybe modified from time to time, according to needs, with the approval of the Minister for Social Justice & Empowerment and other competent authority. JJ",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/3061_G.pdf",
+    "scheme_type": "merit_based",
+    "notes": "Scheme type: merit_based. Application information references the National Scholarship Portal. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [
+      "school"
+    ],
+    "special_requirements": [],
+    "data_quality": {
+      "quality_status": "review",
+      "quality_flags": [
+        "benefit_needs_review"
+      ],
+      "normalization_notes": [
+        "No reliable benefit amount/description was available."
+      ]
+    },
+    "normalization": {
+      "benefit_source": "missing"
+    }
+  },
+  {
+    "id": "nsp_8d9ef2843d9b",
+    "name": "PM YASASVI Central Sector Scheme Of Top Class Education In College For OBC, EBC And DNT Students (Merit Based Scheme)",
+    "level": null,
+    "category": [
+      "OBC",
+      "EBC",
+      "DNT"
+    ],
+    "class_range": null,
+    "education_levels": [],
+    "income_max": 250000.0,
+    "marks_min": null,
+    "benefit": null,
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [],
+    "eligibility": "(i) Those OBC/EBC/DNT students having total annual family income from all sources up to Rs. 2.50 lakh and having secured admission in a full -time prescribed course in any of the notified institutions according to the general selection criteria prescribed by the concerned instit ution, will be eligible for scholarship under the Scheme to the extent of the number of scholarships (slots) allocated to the institution for the course. (ii) In case the number of eligible students admitted exceeds the number of slots allotted to the institution, the scholarship will be restricted to the top students in the inter-se merit list based on the admission criteria for the course as mentioned in Annexure-II. However, if there is more than one student with equal marks for the last available slot in an institution, preference should be given to the student with the lower family income. The remaining students from OBC/EBC/DNT category admitted in the institution shall be eligible for the Post -Matric Scholarship (PMS) administered by this Mini stry through State Governments/UT Administrations, provided such students are otherwise eligible under the said scheme.",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/ApprovedmodifieddraftofTopClassCollege.pdf",
+    "scheme_type": "merit_based",
+    "notes": "Scheme type: merit_based. Application information references the National Scholarship Portal. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [
+      "ug"
+    ],
+    "special_requirements": [],
+    "data_quality": {
+      "quality_status": "review",
+      "quality_flags": [
+        "benefit_needs_review"
+      ],
+      "normalization_notes": [
+        "No reliable benefit amount/description was available."
+      ]
+    },
+    "normalization": {
+      "benefit_source": "missing"
+    }
+  },
+  {
+    "id": "nsp_a88b2d772f7b",
+    "name": "National Renewable Energy Fellowship Scheme (Merit Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [],
+    "income_max": null,
+    "marks_min": null,
+    "benefit": null,
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [],
+    "eligibility": null,
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": null,
+    "scheme_type": "merit_based",
+    "notes": null,
+    "active": true,
+    "specification_status": "missing_url",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [],
+    "special_requirements": [
+      "northeast"
+    ],
+    "data_quality": {
+      "quality_status": "incomplete",
+      "quality_flags": [
+        "education_needs_review",
+        "benefit_needs_review",
+        "missing_specification"
+      ],
+      "normalization_notes": [
+        "Education level could not be determined with sufficient confidence.",
+        "No reliable benefit amount/description was available.",
+        "Official specification URL was not available."
+      ]
+    },
+    "normalization": {
+      "benefit_source": "missing"
+    }
+  },
+  {
+    "id": "nsp_5b9542d76118",
+    "name": "Stipend Scheme For Under Graduate And Post Graduate Studies In Indian Statistical Institute-Kolkata (Merit Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [
+      "ug",
+      "pg"
+    ],
+    "income_max": null,
+    "marks_min": null,
+    "benefit": null,
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [],
+    "eligibility": null,
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/STIPEND_STATICAL_GUIDLLINES.pdf",
+    "scheme_type": "merit_based",
+    "notes": "Scheme type: merit_based.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [
+      "ug",
+      "pg"
+    ],
+    "special_requirements": [],
+    "data_quality": {
+      "quality_status": "review",
+      "quality_flags": [
+        "benefit_needs_review"
+      ],
+      "normalization_notes": [
+        "No reliable benefit amount/description was available."
+      ]
+    },
+    "normalization": {
+      "benefit_source": "missing"
+    }
+  },
+  {
+    "id": "nsp_f8081f69163b",
+    "name": "Icar National Talent Scholarship(Nts-Ug) (Merit Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [],
+    "income_max": null,
+    "marks_min": null,
+    "benefit": "Rs. 2,000 per month for undergraduate students and Rs. 3,000 per month for postgraduate students",
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [],
+    "eligibility": null,
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/GuidelinesforICAR_NTS_Scholarship_3103_3104.pdf",
+    "scheme_type": "merit_based",
+    "notes": "Scheme type: merit_based. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [
+      "ug"
+    ],
+    "special_requirements": [],
+    "data_quality": {
+      "quality_status": "good",
+      "quality_flags": [],
+      "normalization_notes": []
+    },
+    "normalization": {
+      "benefit_source": "normalized"
+    }
+  },
+  {
+    "id": "nsp_47b54c980354",
+    "name": "Icar Post Graduate Scholarship(Pgs) (Merit Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [
+      "pg"
+    ],
+    "income_max": null,
+    "marks_min": null,
+    "benefit": null,
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [],
+    "eligibility": "Only those candidates having passed their Bachelor's degree or appearing at the Final Examination of the Bachelor's Degree in the concerned field, under 10+6, 10+2+5, 10+2+4 are eligible to apply for admission . (For admission, the eligibility requirement laid down by the respective AUs including tenure will be treated as final). Candidates must have obtained 60% marks or Overall Grade Point Average (OGPA) of 6.60/10.00 or 3.25/5.00 or 2.6/4.00 for General, OBC and Under Privileged States (UPS) categories whereas for SC/ST /Physically Challenged (PC) categories, the candidates must have obtained 55% marks or an OGPA of 5.5/10.00 or 2.75/5.00 or 2.20/4.00. The equivalence of OGPA to percent marks, where needed, will be certified by the Registrar of the concerned University. For admission in M.V.Sc., candidates must have completed B.V.Sc. & A.H. with internship before the date of registration in the University. 3.3 AGE LIMIT Minimum age limit shall be 19 years as on the date of the examination. No relaxation is admissible regarding minimum age limit.",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/RevisedGuidelinesforICAR_JRF_SRFandPG_Scholarship_3105_3106.pdf",
+    "scheme_type": "merit_based",
+    "notes": "Scheme type: merit_based.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [
+      "pg"
+    ],
+    "special_requirements": [],
+    "data_quality": {
+      "quality_status": "review",
+      "quality_flags": [
+        "benefit_needs_review"
+      ],
+      "normalization_notes": [
+        "No reliable benefit amount/description was available."
+      ]
+    },
+    "normalization": {
+      "benefit_source": "needs_review"
+    }
+  },
+  {
+    "id": "nsp_dcfb36d658fb",
+    "name": "Icar National Talent Scholarship(Nts-Pg) (Merit Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [],
+    "income_max": null,
+    "marks_min": null,
+    "benefit": "Rs. 3,000 per month for postgraduate students",
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [],
+    "eligibility": null,
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/GuidelinesforICAR_NTS_Scholarship_3103_3104.pdf",
+    "scheme_type": "merit_based",
+    "notes": "Scheme type: merit_based. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [
+      "pg"
+    ],
+    "special_requirements": [],
+    "data_quality": {
+      "quality_status": "good",
+      "quality_flags": [],
+      "normalization_notes": []
+    },
+    "normalization": {
+      "benefit_source": "normalized"
+    }
+  },
+  {
+    "id": "nsp_5d19ad1f2bd8",
+    "name": "Icar Junior Research Fellowships(Jrf) And Senior Research Fellowships(Srf) (Merit Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [],
+    "income_max": null,
+    "marks_min": null,
+    "benefit": null,
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [],
+    "eligibility": "Only those candidates having passed their Bachelor's degree or appearing at the Final Examination of the Bachelor's Degree in the concerned field, under 10+6, 10+2+5, 10+2+4 are eligible to apply for admission . (For admission, the eligibility requirement laid down by the respective AUs including tenure will be treated as final). Candidates must have obtained 60% marks or Overall Grade Point Average (OGPA) of 6.60/10.00 or 3.25/5.00 or 2.6/4.00 for General, OBC and Under Privileged States (UPS) categories whereas for SC/ST /Physically Challenged (PC) categories, the candidates must have obtained 55% marks or an OGPA of 5.5/10.00 or 2.75/5.00 or 2.20/4.00. The equivalence of OGPA to percent marks, where needed, will be certified by the Registrar of the concerned University. For admission in M.V.Sc., candidates must have completed B.V.Sc. & A.H. with internship before the date of registration in the University. 3.3 AGE LIMIT Minimum age limit shall be 19 years as on the date of the examination. No relaxation is admissible regarding minimum age limit.",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/RevisedGuidelinesforICAR_JRF_SRFandPG_Scholarship_3105_3106.pdf",
+    "scheme_type": "merit_based",
+    "notes": "Scheme type: merit_based.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [
+      "pg",
+      "phd"
+    ],
+    "special_requirements": [],
+    "data_quality": {
+      "quality_status": "review",
+      "quality_flags": [
+        "benefit_needs_review"
+      ],
+      "normalization_notes": [
+        "No reliable benefit amount/description was available."
+      ]
+    },
+    "normalization": {
+      "benefit_source": "needs_review"
+    }
+  },
+  {
+    "id": "nsp_d655aaf09da7",
+    "name": "Central Sector Scholarship Of Top Class Education For SC Students (Merit Based Scheme)",
+    "level": null,
+    "category": [
+      "SC"
+    ],
+    "class_range": null,
+    "education_levels": [],
+    "income_max": 800000.0,
+    "marks_min": null,
+    "benefit": "sector institutions (ii) Academic allowance of Rs. 86,000 in the first year of study and Rs. The payment of tuition fee, other non -refundable charges and academic allowance",
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [],
+    "eligibility": "a. Those SC students having total annual family income from all sources up to Rs. 8.00 lakh and having secured admission in a full -time prescribed course in any of the notified institutions according to the general selection criteria prescribed by the concerned institution, will be eligible for scholarship under the Scheme to the extent of the number of scholarships (slots) allocated to the institution for the course. Income declaration of self-employed parents/guardian should be in the form of a certificate issued by revenue officer not below the rank of Tehsildar. Employed parents/guardians are required to obtain income certificate from their employer. Employed parents/guardians should obtain consolidated certificate from revenue officer for any other additional source of income. b. In case the number of eligible students admitted exceeds the number of slots allotted to the institution, the scholarship will be restricted to the top students in the inter-se merit list based on the admission criteria for the course as mentioned in Annexure-II. However, if there is more than one student with equal marks for the last available slot in an institution, preference should be given to the student with the lower family",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/Top_Class_Education_Scheme_2018.pdf",
+    "scheme_type": "merit_based",
+    "notes": "Scheme type: merit_based. Application information references the National Scholarship Portal. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [],
+    "special_requirements": [],
+    "data_quality": {
+      "quality_status": "review",
+      "quality_flags": [
+        "education_needs_review"
+      ],
+      "normalization_notes": [
+        "Education level could not be determined with sufficient confidence."
+      ]
+    },
+    "normalization": {
+      "benefit_source": "accepted"
+    }
+  },
+  {
+    "id": "nsp_43a380386794",
+    "name": "Free Coaching For Scs OBCs And Beneficiaries Of PM Cares Children Scheme (Welfare Based Scheme)",
+    "level": null,
+    "category": [
+      "SC"
+    ],
+    "class_range": null,
+    "education_levels": [],
+    "income_max": 800000.0,
+    "marks_min": null,
+    "benefit": "Rs. 4,000 per month stipend for the duration of the course, not exceeding 12 months",
+    "deadline": "31-10-2026",
+    "open_date": "03-08-2026",
+    "documents": [],
+    "eligibility": "g. Entrance examination tests for CPL courses/National Defence Academy and Combined Defence Services. 4. Category-wise Ratio of Candidates 3500 students will be selected under this scheme annually. The detailed bifurcation of these slots is in para 7(e) of Scheme Guidelines. 5. Eligibility criteria for students A. For students belonging to SCs and OBCs Category: a. Students belonging to SCs and OBCs, having total family income of Rs. 8.00 lakh or less per annum from all sources will be eligible for beneﬁts under the Scheme. b. SCs/OBCs candidate belonging to a Minority community may apply under the similar scheme(s) of Ministry of Minority Affairs, or the State Govts., as the case may be. c. Income Certificate: Income declaration of self-employed parents/guardian should be in the form of a certificate issued by a Revenue Officer not below the rank of Tehsildar. Employed parents/guardians are required to obtain income certificate",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/guid_3108.pdf",
+    "scheme_type": "welfare_based",
+    "notes": "Scheme type: welfare_based. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [],
+    "special_requirements": [],
+    "data_quality": {
+      "quality_status": "review",
+      "quality_flags": [
+        "education_needs_review"
+      ],
+      "normalization_notes": [
+        "Education level could not be determined with sufficient confidence."
+      ]
+    },
+    "normalization": {
+      "benefit_source": "normalized"
+    }
+  },
+  {
+    "id": "nsp_6af7d026f0c8",
+    "name": "Pre Matric Scholarship For Students With Disabilities (Welfare Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [
+      "pre_matric"
+    ],
+    "income_max": null,
+    "marks_min": null,
+    "benefit": null,
+    "deadline": "31-10-2026",
+    "open_date": "25-07-2026",
+    "documents": [],
+    "eligibility": "3 Broad Features of Scholarship Schemes 4-6 4 Pre-Matric Scholarship for Students with Disabilities 6 5 Post-Matric Scholarship for Students with Disabilities 6-7 6 Top Class Education Scholarship for Students with Disabilities 8-9 7 Procedure of Applications and Selection for Pre-Matric, Post- Matric and Top Class Scholarship schemes 9-10 8 Duration and Renewal of Scholarship/Award 10 9 Other Conditions 10-11 10 Mode of Disbursal of Scholarship 11 11 Monitoring 11-12 12 National Fellowship for Persons with Disabilities 12-16 13 National Overseas Scholarship 16-24",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/DEPDGuidelines_1.pdf",
+    "scheme_type": "welfare_based",
+    "notes": "Scheme type: welfare_based. Application information references the National Scholarship Portal. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [
+      "pre_matric"
+    ],
+    "special_requirements": [
+      "disability"
+    ],
+    "data_quality": {
+      "quality_status": "review",
+      "quality_flags": [
+        "benefit_needs_review"
+      ],
+      "normalization_notes": [
+        "No reliable benefit amount/description was available."
+      ]
+    },
+    "normalization": {
+      "benefit_source": "needs_review"
+    }
+  },
+  {
+    "id": "nsp_89ad4defb963",
+    "name": "Post Matric Scholarship For Students With Disabilities (Welfare Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [
+      "post_matric"
+    ],
+    "income_max": null,
+    "marks_min": null,
+    "benefit": null,
+    "deadline": "31-10-2026",
+    "open_date": "25-07-2026",
+    "documents": [],
+    "eligibility": "3 Broad Features of Scholarship Schemes 4-6 4 Pre-Matric Scholarship for Students with Disabilities 6 5 Post-Matric Scholarship for Students with Disabilities 6-7 6 Top Class Education Scholarship for Students with Disabilities 8-9 7 Procedure of Applications and Selection for Pre-Matric, Post- Matric and Top Class Scholarship schemes 9-10 8 Duration and Renewal of Scholarship/Award 10 9 Other Conditions 10-11 10 Mode of Disbursal of Scholarship 11 11 Monitoring 11-12 12 National Fellowship for Persons with Disabilities 12-16 13 National Overseas Scholarship 16-24",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/DEPDGuidelines_1.pdf",
+    "scheme_type": "welfare_based",
+    "notes": "Scheme type: welfare_based. Application information references the National Scholarship Portal. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [
+      "post_matric"
+    ],
+    "special_requirements": [
+      "disability"
+    ],
+    "data_quality": {
+      "quality_status": "review",
+      "quality_flags": [
+        "benefit_needs_review"
+      ],
+      "normalization_notes": [
+        "No reliable benefit amount/description was available."
+      ]
+    },
+    "normalization": {
+      "benefit_source": "needs_review"
+    }
+  },
+  {
+    "id": "nsp_eec735e24e24",
+    "name": "Scholarship For Top Class Education For Students With Disabilities (Welfare Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [],
+    "income_max": null,
+    "marks_min": null,
+    "benefit": null,
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [],
+    "eligibility": "3 Broad Features of Scholarship Schemes 4-6 4 Pre-Matric Scholarship for Students with Disabilities 6 5 Post-Matric Scholarship for Students with Disabilities 6-7 6 Top Class Education Scholarship for Students with Disabilities 8-9 7 Procedure of Applications and Selection for Pre-Matric, Post- Matric and Top Class Scholarship schemes 9-10 8 Duration and Renewal of Scholarship/Award 10 9 Other Conditions 10-11 10 Mode of Disbursal of Scholarship 11 11 Monitoring 11-12 12 National Fellowship for Persons with Disabilities 12-16 13 National Overseas Scholarship 16-24",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/DEPDGuidelines_1.pdf",
+    "scheme_type": "welfare_based",
+    "notes": "Scheme type: welfare_based. Application information references the National Scholarship Portal. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [],
+    "special_requirements": [
+      "disability"
+    ],
+    "data_quality": {
+      "quality_status": "review",
+      "quality_flags": [
+        "education_needs_review",
+        "benefit_needs_review"
+      ],
+      "normalization_notes": [
+        "Education level could not be determined with sufficient confidence.",
+        "No reliable benefit amount/description was available."
+      ]
+    },
+    "normalization": {
+      "benefit_source": "needs_review"
+    }
+  },
+  {
+    "id": "nsp_4e1cd16c47ad",
+    "name": "National Means Cum Merit Scholarship (Merit Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [],
+    "income_max": null,
+    "marks_min": 60.0,
+    "benefit": "Rs. 12,000 per annum",
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [],
+    "eligibility": "4.0 Disbursement of Scholarships 3.3 scheme. 4.1 A student can avail only one Scholarship under any Central Govemment Scholarship scheme. 4.2 The awardees will be required to open bank accounts preferably in SBI, orany public sector bank or any scheduled bank which has core banking fac iiy. 4'3 The eligible studenrs will apply on National Schorarship porral (NSp), whichwill be verified by the State Govemments and UT Administrations and finalry sent toMinistry for sanction of funds. The final list of students' verified at alr concernld levelson National Scholarship portal, will be considered for sanction of funds. Thescholarships for those students will be discontinued ifthey wourd have not been abre torenew their application on NSp within stipurated time period. The sanction of firndswill be done from Annual Budget provision for releasing them to SBI, theimplementing bank for scheme for disbursal of scholarships, to students directly intotheir bank accounts by electronic transfer through Direct benefit Transfer (DBT). 2 4.4 The awardees should get minimum of 60% marks in class X for continuation of scholarship (relaxable by 5% for SC/sr candidates) in next higher classes. For continuing the scholarship in class X and XII, the awardees should get clear promotion form class IX to class X and fiom class XI to class XII in the first attempt. 5.1 An awardee is eligible for the scholarship provided he/she: (i) takes up studies in approved courses. (ii) maintains good conduct as cer...",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/NMMSSGuidelines.pdf",
+    "scheme_type": "merit_based",
+    "notes": "Scheme type: merit_based. Application information references the National Scholarship Portal. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [
+      "school"
+    ],
+    "special_requirements": [],
+    "data_quality": {
+      "quality_status": "good",
+      "quality_flags": [],
+      "normalization_notes": []
+    },
+    "normalization": {
+      "benefit_source": "normalized"
+    }
+  },
+  {
+    "id": "nsp_314001f8efea",
+    "name": "PM-USP – Central Sector Scheme Of Scholarship For College And University Students (CSSS) (Merit Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [],
+    "income_max": 450000.0,
+    "marks_min": 50.0,
+    "benefit": null,
+    "deadline": "30-09-2026",
+    "open_date": "01-06-2026",
+    "documents": [],
+    "eligibility": "i. Students who are above 80 th percentile of successful candidates in the relevant stream from the respective Board of Examination in Class XII of 10+2 pattern or equivalent; ii. Pursuing regular degree courses and not correspondence or distance mode or pursuing Diploma courses; iii. Pursuing courses at colleges/institutions recognized by All India Council for Technical Education and respective Regulatory Bodies concerned; iv. Not availing benefit of any other merit scholarship schemes, State run scholarship schemes, fee waiver, reimbursement scheme. v. Students with gross parental/family income upto ₹ 4.5 lakh per annum are eligible for scholarship under the scheme. Income certificate will be required only for the fresh applicants; vi. Student changing his/ her college/institute of study will be allowed to continue/renew the scholarship provided the course of study and the institution is having valid AISHE Code; The AISHE code can be checked in the portal https://aishe.gov.in/aishe/aisheCode vii. Students who missed to apply for renewal of application online on NSP will be allowed to apply for renewal of scholarship for subsequent year on NSP, if he/she fulfils eligibility condition for",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/CSSS_GUIDLINES_07022024_updated.pdf",
+    "scheme_type": "merit_based",
+    "notes": "Scheme type: merit_based. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.430445+00:00",
+    "education_level": [
+      "ug",
+      "pg"
+    ],
+    "special_requirements": [],
+    "data_quality": {
+      "quality_status": "review",
+      "quality_flags": [
+        "benefit_needs_review"
+      ],
+      "normalization_notes": [
+        "No reliable benefit amount/description was available."
+      ]
+    },
+    "normalization": {
+      "benefit_source": "needs_review"
+    }
+  },
+  {
+    "id": "nsp_cd3c03dae47b",
+    "name": "National Fellowship And Scholarship For Higher Education Of ST Students - Scholarship (Formally Top Class Education For Schedule Tribe Students) (Merit Based Scheme)",
+    "level": null,
+    "category": [
+      "ST"
+    ],
+    "class_range": null,
+    "education_levels": [],
+    "income_max": null,
+    "marks_min": null,
+    "benefit": null,
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [
+      "3.4 Verification Process by University/Institute 20",
+      "3.4.1 Verification Process by the Ministry 21",
+      "3.5 Publishing of the selection list 21",
+      "4 Release of payment 21",
+      "4.1 Payment process 22",
+      "4.2 Utilization Certificate from the Institute 22",
+      "4.3 Updation of Expenditure at PFMS 22",
+      "5 Others 23",
+      "5.1 Updation of the completion of course at Ministry’s portal 23",
+      "5.2 Grievance Module 23",
+      "6 Applicability of Guidelines 23",
+      "7 Change in the provisions of the scheme 23",
+      "PART-B (Scholarship)",
+      "B. National Scholarship Scheme",
+      "1. Objective",
+      "National Scholarship Scheme is intended to encourage meritorious ST student s to",
+      "pursue courses at Graduate and Post Graduate level in premier institutes identified",
+      "by the Ministry in professional fields such as Management, Medicine/Science,",
+      "Engineering and Technology, Humanities, Law and Social Science etc.",
+      "2. Salient Features of the Scheme",
+      "This is a Central Sector Scheme, fully funded by the Ministry of Tribal Affairs and",
+      "provides 100% funding to ST students in courses and institutes approved and",
+      "notified by the Ministry of Tribal Affairs. The scholarship once awarded wi ll continue",
+      "till completion of the course tenure, subject to satisfactory performance of the",
+      "student, as assessed by the institute.",
+      "2.1 Eligibility and course duration",
+      "Course Duration Eligibility",
+      "Graduate level Course duration is fixed by"
+    ],
+    "eligibility": "2.2 Income Criteria 17 2.3 Universities/Institutions covered under the scheme 18 2.4 Slots of Scholarship 18 2.5 Value of Scholarship 19 3 Selection Process 19 3.1 Online Application through Portal 19 3.2 Registration Process 19",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/tribalfellowshipguideline.pdf",
+    "scheme_type": "merit_based",
+    "notes": "Scheme type: merit_based. Application information references the National Scholarship Portal. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.432453+00:00",
+    "education_level": [
+      "ug",
+      "pg"
+    ],
+    "special_requirements": [],
+    "data_quality": {
+      "quality_status": "review",
+      "quality_flags": [
+        "benefit_needs_review"
+      ],
+      "normalization_notes": [
+        "No reliable benefit amount/description was available."
+      ]
+    },
+    "normalization": {
+      "benefit_source": "needs_review"
+    }
+  },
+  {
+    "id": "nsp_ea2eaa849402",
+    "name": "Financial Support To The Students Of NER For Higher Professional Courses(NEC Merit Scholarship) (Merit Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [
+      "phd"
+    ],
+    "income_max": 800000.0,
+    "marks_min": null,
+    "benefit": null,
+    "deadline": "31-10-2026",
+    "open_date": "15-07-2026",
+    "documents": [],
+    "eligibility": "3.1 The scholarship is open only to a student who i s a permanent resident of any of the North Eastern States. 3.2 For candidates belonging to Academic Year 2020 -21 and onwards , the scholarship under this scheme shall be disbursed only through National Scholarship Portal (NSP). However, t he students, who already have been receiving scholarship before th ese rules coming into force, shall continue to receive their scholarships as per the prevailing procedure till end of their scholarships tenure. 3.3 Once selected, the scholarship shall be ava ilable to a selected student for the prescribed duration of a course subject to fulfillment of renewal conditions, as specified under Para 6 of these rules. Extension of scholarship beyond the prescribed period of study will not be entertained. Note 1: - [Student enrolled in integrated course will be entitled to receive the scholarship for the full duration of the course as per the admissible rates at para 7.1.] Note 2: - [The scholarship for M.Phil. will be available for 2 years and for Ph.D",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/NEC_1234_G.pdf",
+    "scheme_type": "merit_based",
+    "notes": "Scheme type: merit_based. Application information references the National Scholarship Portal. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.432453+00:00",
+    "education_level": [
+      "ug",
+      "pg"
+    ],
+    "special_requirements": [
+      "northeast"
+    ],
+    "data_quality": {
+      "quality_status": "review",
+      "quality_flags": [
+        "benefit_needs_review"
+      ],
+      "normalization_notes": [
+        "No reliable benefit amount/description was available."
+      ]
+    },
+    "normalization": {
+      "benefit_source": "needs_review"
+    }
+  },
+  {
+    "id": "nsp_cec3740816fd",
+    "name": "Prime Minister'S Scholarship Scheme For Ministry Of Railways (Merit Based Scheme)",
+    "level": null,
+    "category": [],
+    "class_range": null,
+    "education_levels": [],
+    "income_max": null,
+    "marks_min": null,
+    "benefit": "Rs. 2,500 per month for male students; Rs. 3,000 per month for female students",
+    "deadline": "31-10-2026",
+    "open_date": "01-06-2026",
+    "documents": [
+      "Following documents in the respective category are mandatorily required to be submitted/",
+      "uploaded by the applicant for applying under PMSS:",
+      "For Fresh Applicant:",
+      "i. Service Certificate issued by respective offices of the serving personnel for category IV. (As",
+      "per Annexure II).",
+      "ii. A copy of PPO/Discharge certificate/book for Categories I, II and III.",
+      "iii. Applicants are required to upload scanned copy of the mark -sheet/Grade card of MEQ i.e.",
+      "10+2/ Diploma/Graduation (as the case may be)."
+    ],
+    "eligibility": "iv) Consolidate the information received from Colleges/Institutions and prepare merit list for fresh applicants according to quota allotted to each zonal Railways as per Annexure -I. In case there is vacancy in the quota of a zonal railway, it is filled up by excess candidates of other railways by preparing combined merit list. List of applicants selected under renewal category is also prepared. v) List of selected applicants along with bank particulars will be sent on line to PFMS. vi) Calcula te total scholarship amount required to be sanctioned under PMSS and process for credit/ transfer of scholarship directly into the bank account of the beneficiaries through Public Financial Management System (PFMS). vii) PFMS - Validate bank accounts of the selected",
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "source": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "specification_url": "https://scholarships.gov.in/public/schemeGuidelines/MORB_GL.pdf",
+    "scheme_type": "merit_based",
+    "notes": "Scheme type: merit_based. Application information references the National Scholarship Portal. The official guidelines mention DBT/payment transfer.",
+    "active": true,
+    "specification_status": "success",
+    "last_checked": "2026-10-02T09:49:23.432453+00:00",
+    "education_level": [
+      "ug"
+    ],
+    "special_requirements": [],
+    "data_quality": {
+      "quality_status": "good",
+      "quality_flags": [],
+      "normalization_notes": []
+    },
+    "normalization": {
+      "benefit_source": "normalized"
+    }
+  }
+]

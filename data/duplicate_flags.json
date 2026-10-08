@@ -1,0 +1,74 @@
+{
+  "summary": {
+    "total_scholarships": 43,
+    "exact_id_duplicates": 0,
+    "total_pairs_checked": 903,
+    "likely_duplicates": 1,
+    "needs_review": 3
+  },
+  "exact_id_duplicates": [],
+  "likely_duplicates": [
+    {
+      "scholarship_1": {
+        "id": "ishan_uday_ne",
+        "name": "Ishan Uday Special Scholarship Scheme for North Eastern Region"
+      },
+      "scholarship_2": {
+        "id": "ugc_3c301904ef9f",
+        "name": "“IshanUday” Special Scholarship Scheme for North Eastern Region"
+      },
+      "name_similarity": 0.9919,
+      "semantic_similarity": 0.82,
+      "status": "likely_duplicate",
+      "reason": "very_high_name_similarity",
+      "contradictions": []
+    }
+  ],
+  "needs_review": [
+    {
+      "scholarship_1": {
+        "id": "minority_pre_matric",
+        "name": "Pre-Matric Scholarship for Minority Students"
+      },
+      "scholarship_2": {
+        "id": "minority_merit_cum_means",
+        "name": "Merit-cum-Means Scholarship for Minority Students"
+      },
+      "name_similarity": 0.8172,
+      "semantic_similarity": 0.8131,
+      "status": "needs_review",
+      "reason": "name_and_semantic_similarity",
+      "contradictions": []
+    },
+    {
+      "scholarship_1": {
+        "id": "minority_post_matric",
+        "name": "Post-Matric Scholarship for Minority Students"
+      },
+      "scholarship_2": {
+        "id": "minority_merit_cum_means",
+        "name": "Merit-cum-Means Scholarship for Minority Students"
+      },
+      "name_similarity": 0.8085,
+      "semantic_similarity": 0.8126,
+      "status": "needs_review",
+      "reason": "name_and_semantic_similarity",
+      "contradictions": []
+    },
+    {
+      "scholarship_1": {
+        "id": "gujarat_minority_prematric",
+        "name": "Gujarat Minority Pre-Matric Scholarship"
+      },
+      "scholarship_2": {
+        "id": "gujarat_minority_highersecondary",
+        "name": "Gujarat Minority Higher Secondary Scholarship"
+      },
+      "name_similarity": 0.7857,
+      "semantic_similarity": 0.8804,
+      "status": "needs_review",
+      "reason": "name_and_semantic_similarity",
+      "contradictions": []
+    }
+  ]
+}

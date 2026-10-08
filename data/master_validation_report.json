@@ -1,0 +1,689 @@
+{
+  "summary": {
+    "total": 61,
+    "good": 1,
+    "needs_review": 60,
+    "invalid": 0,
+    "duplicate_ids": 0
+  },
+  "duplicate_ids": {},
+  "invalid_records": [],
+  "needs_review": [
+    {
+      "index": 0,
+      "id": "sc_st_pre_matric",
+      "name": "Pre-Matric Scholarship for SC/ST Students",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 1,
+      "id": "sc_st_post_matric",
+      "name": "Post-Matric Scholarship for SC/ST Students",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 2,
+      "id": "top_class_education_sc",
+      "name": "Top Class Education Scheme for SC Students",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 3,
+      "id": "national_overseas_sc",
+      "name": "National Overseas Scholarship for SC Students",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 4,
+      "id": "obc_post_matric",
+      "name": "Post-Matric Scholarship for OBC Students",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 5,
+      "id": "national_fellowship_obc",
+      "name": "National Fellowship for OBC Students",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 6,
+      "id": "csss_merit",
+      "name": "Central Sector Scheme of Scholarship for College and University Students (CSSS)",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 7,
+      "id": "inspire_scholarship",
+      "name": "INSPIRE Scholarship for Higher Education",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 8,
+      "id": "minority_pre_matric",
+      "name": "Pre-Matric Scholarship for Minority Students",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 9,
+      "id": "minority_post_matric",
+      "name": "Post-Matric Scholarship for Minority Students",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 10,
+      "id": "minority_merit_cum_means",
+      "name": "Merit-cum-Means Scholarship for Minority Students",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 11,
+      "id": "begum_hazrat_mahal_girls",
+      "name": "Begum Hazrat Mahal National Scholarship for Minority Girls",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 12,
+      "id": "national_fellowship_st",
+      "name": "National Fellowship and Scholarship for ST Students",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 13,
+      "id": "pm_yasasvi_school",
+      "name": "PM-YASASVI Top Class School Scholarship",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 14,
+      "id": "pm_yasasvi_professional",
+      "name": "PM-YASASVI Scholarship for Professional Courses",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 15,
+      "id": "aicte_pragati",
+      "name": "AICTE Pragati Scholarship Scheme for Girls",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 16,
+      "id": "aicte_saksham",
+      "name": "AICTE Saksham Scholarship Scheme for Differently-Abled Students",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 17,
+      "id": "aicte_swanath",
+      "name": "AICTE Swanath Scholarship Scheme for Orphans",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 18,
+      "id": "aicte_yashasvi",
+      "name": "AICTE Yashasvi Scholarship",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 19,
+      "id": "nmmss_means_merit",
+      "name": "National Means-cum-Merit Scholarship Scheme (NMMSS)",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 21,
+      "id": "sitaram_jindal_foundation",
+      "name": "Sitaram Jindal Foundation Scholarship",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 22,
+      "id": "reliance_foundation_ug",
+      "name": "Reliance Foundation Undergraduate Scholarships",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 23,
+      "id": "hdfc_parivartan_ecss",
+      "name": "HDFC Bank Parivartan Educational Crisis Scholarship Support (ECSS)",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 24,
+      "id": "inlaks_shivdasani",
+      "name": "Inlaks Shivdasani Scholarship",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 25,
+      "id": "kc_mahindra_diploma",
+      "name": "K.C. Mahindra Scholarships for Polytechnic Diploma Students",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 26,
+      "id": "faea_scholarship",
+      "name": "Foundation for Academic Excellence and Access (FAEA) Scholarship",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 27,
+      "id": "bharti_airtel_scholarship",
+      "name": "Bharti Airtel Scholarship Program",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 28,
+      "id": "jsw_udaan_ug",
+      "name": "JSW UDAAN Scholarship",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 29,
+      "id": "vidyadhan_scholarship",
+      "name": "Vidyadhan Scholarship",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 30,
+      "id": "gujarat_minority_prematric",
+      "name": "Gujarat Minority Pre-Matric Scholarship",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 31,
+      "id": "gujarat_minority_highersecondary",
+      "name": "Gujarat Minority Higher Secondary Scholarship",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 32,
+      "id": "gujarat_minority_postmatric",
+      "name": "Gujarat Minority Post-Matric Scholarship",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 33,
+      "id": "karnataka_ssp_postmatric_minority",
+      "name": "Karnataka SSP Post-Matric Scholarship for Minorities",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 34,
+      "id": "karnataka_ews_general",
+      "name": "Karnataka EWS Scholarship for General Category",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 35,
+      "id": "karnataka_disability_udid",
+      "name": "Karnataka Scholarship for Students with Disabilities",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 36,
+      "id": "jharkhand_ekalyan",
+      "name": "Ekalyan Scholarship Jharkhand",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 37,
+      "id": "mp_ladli_laxmi",
+      "name": "Ladli Laxmi Yojana Madhya Pradesh",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 38,
+      "id": "andhra_pradesh_postmatric",
+      "name": "Andhra Pradesh Post-Matric Scholarship",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 39,
+      "id": "up_scholarship_postmatric",
+      "name": "Uttar Pradesh Post-Matric Scholarship",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 40,
+      "id": "test_dynamic_001",
+      "name": "ScholarAI Dynamic Test Scholarship",
+      "errors": [],
+      "warnings": [
+        "Source URL is missing",
+        "Education level is missing",
+        "Eligibility information is missing"
+      ]
+    },
+    {
+      "index": 41,
+      "id": "ugc_258c66a729e6",
+      "name": "National Scholarship for Post Graduate Studies",
+      "errors": [],
+      "warnings": [
+        "Education level is missing",
+        "Category is missing",
+        "Eligibility information is missing",
+        "Documents list is missing",
+        "Deadline is missing"
+      ]
+    },
+    {
+      "index": 42,
+      "id": "nsp_ea1736755042",
+      "name": "Prime Minister'S Scholarship Scheme For Wards Of States/UTs Police Personnel Martyred During Terror/Naxal Attacks (Merit Based Scheme)",
+      "errors": [],
+      "warnings": [
+        "Education level is missing",
+        "Category is missing",
+        "Eligibility information is missing",
+        "Benefit information is missing",
+        "Documents list is missing"
+      ]
+    },
+    {
+      "index": 43,
+      "id": "nsp_5ad174760ff9",
+      "name": "Prime Minister'S Scholarship Scheme For Central Armed Police Forces And Assam Rifles (Merit Based Scheme)",
+      "errors": [],
+      "warnings": [
+        "Education level is missing",
+        "Category is missing",
+        "Eligibility information is missing",
+        "Benefit information is missing",
+        "Documents list is missing"
+      ]
+    },
+    {
+      "index": 44,
+      "id": "nsp_3e4b7d56155b",
+      "name": "PM USP Special Scholarship Scheme For Jammu Kashmir And Ladakh (Merit Based Scheme)",
+      "errors": [],
+      "warnings": [
+        "Category is missing",
+        "Benefit information is missing",
+        "Documents list is missing"
+      ]
+    },
+    {
+      "index": 45,
+      "id": "nsp_9b4851080ab1",
+      "name": "Financial Assistance For Education To The Wards Of Beedi/Cine/Iomc/Lsdm- Pre Matric (Welfare Based Scheme)",
+      "errors": [],
+      "warnings": [
+        "Category is missing",
+        "Eligibility information is missing",
+        "Benefit information is missing",
+        "Documents list is missing"
+      ]
+    },
+    {
+      "index": 46,
+      "id": "nsp_6aa86af05195",
+      "name": "Financial Assistance For Education To The Wards Of Beedi/Cine/Iomc/Lsdm- Post Matric (Welfare Based Scheme)",
+      "errors": [],
+      "warnings": [
+        "Category is missing",
+        "Eligibility information is missing",
+        "Benefit information is missing",
+        "Documents list is missing"
+      ]
+    },
+    {
+      "index": 47,
+      "id": "nsp_8d9ef2843d9b",
+      "name": "PM YASASVI Central Sector Scheme Of Top Class Education In College For OBC, EBC And DNT Students (Merit Based Scheme)",
+      "errors": [],
+      "warnings": [
+        "Benefit information is missing",
+        "Documents list is missing"
+      ]
+    },
+    {
+      "index": 48,
+      "id": "nsp_a88b2d772f7b",
+      "name": "National Renewable Energy Fellowship Scheme (Merit Based Scheme)",
+      "errors": [],
+      "warnings": [
+        "Education level is missing",
+        "Category is missing",
+        "Eligibility information is missing",
+        "Benefit information is missing",
+        "Documents list is missing"
+      ]
+    },
+    {
+      "index": 49,
+      "id": "nsp_5b9542d76118",
+      "name": "Stipend Scheme For Under Graduate And Post Graduate Studies In Indian Statistical Institute-Kolkata (Merit Based Scheme)",
+      "errors": [],
+      "warnings": [
+        "Category is missing",
+        "Eligibility information is missing",
+        "Benefit information is missing",
+        "Documents list is missing"
+      ]
+    },
+    {
+      "index": 50,
+      "id": "nsp_f8081f69163b",
+      "name": "Icar National Talent Scholarship(Nts-Ug) (Merit Based Scheme)",
+      "errors": [],
+      "warnings": [
+        "Category is missing",
+        "Eligibility information is missing",
+        "Documents list is missing"
+      ]
+    },
+    {
+      "index": 51,
+      "id": "nsp_47b54c980354",
+      "name": "Icar Post Graduate Scholarship(Pgs) (Merit Based Scheme)",
+      "errors": [],
+      "warnings": [
+        "Category is missing",
+        "Benefit information is missing",
+        "Documents list is missing"
+      ]
+    },
+    {
+      "index": 52,
+      "id": "nsp_dcfb36d658fb",
+      "name": "Icar National Talent Scholarship(Nts-Pg) (Merit Based Scheme)",
+      "errors": [],
+      "warnings": [
+        "Category is missing",
+        "Eligibility information is missing",
+        "Documents list is missing"
+      ]
+    },
+    {
+      "index": 53,
+      "id": "nsp_5d19ad1f2bd8",
+      "name": "Icar Junior Research Fellowships(Jrf) And Senior Research Fellowships(Srf) (Merit Based Scheme)",
+      "errors": [],
+      "warnings": [
+        "Category is missing",
+        "Benefit information is missing",
+        "Documents list is missing"
+      ]
+    },
+    {
+      "index": 54,
+      "id": "nsp_d655aaf09da7",
+      "name": "Central Sector Scholarship Of Top Class Education For SC Students (Merit Based Scheme)",
+      "errors": [],
+      "warnings": [
+        "Education level is missing",
+        "Documents list is missing"
+      ]
+    },
+    {
+      "index": 55,
+      "id": "nsp_43a380386794",
+      "name": "Free Coaching For Scs OBCs And Beneficiaries Of PM Cares Children Scheme (Welfare Based Scheme)",
+      "errors": [],
+      "warnings": [
+        "Education level is missing",
+        "Documents list is missing"
+      ]
+    },
+    {
+      "index": 56,
+      "id": "nsp_6af7d026f0c8",
+      "name": "Pre Matric Scholarship For Students With Disabilities (Welfare Based Scheme)",
+      "errors": [],
+      "warnings": [
+        "Category is missing",
+        "Benefit information is missing",
+        "Documents list is missing"
+      ]
+    },
+    {
+      "index": 57,
+      "id": "nsp_89ad4defb963",
+      "name": "Post Matric Scholarship For Students With Disabilities (Welfare Based Scheme)",
+      "errors": [],
+      "warnings": [
+        "Category is missing",
+        "Benefit information is missing",
+        "Documents list is missing"
+      ]
+    },
+    {
+      "index": 58,
+      "id": "nsp_eec735e24e24",
+      "name": "Scholarship For Top Class Education For Students With Disabilities (Welfare Based Scheme)",
+      "errors": [],
+      "warnings": [
+        "Education level is missing",
+        "Category is missing",
+        "Benefit information is missing",
+        "Documents list is missing"
+      ]
+    },
+    {
+      "index": 59,
+      "id": "nsp_ea2eaa849402",
+      "name": "Financial Support To The Students Of NER For Higher Professional Courses(NEC Merit Scholarship) (Merit Based Scheme)",
+      "errors": [],
+      "warnings": [
+        "Category is missing",
+        "Benefit information is missing",
+        "Documents list is missing"
+      ]
+    },
+    {
+      "index": 60,
+      "id": "nsp_cec3740816fd",
+      "name": "Prime Minister'S Scholarship Scheme For Ministry Of Railways (Merit Based Scheme)",
+      "errors": [],
+      "warnings": [
+        "Category is missing"
+      ]
+    }
+  ],
+  "good_records": [
+    {
+      "index": 20,
+      "id": "ishan_uday_ne",
+      "name": "Ishan Uday Special Scholarship Scheme for North Eastern Region",
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

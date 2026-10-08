@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# FAISS local index
+data/faiss_index/
+
+# Expo / React Native
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+.expo/
+
+# OS / IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Local scholarship backups
+data/scholarships_backup_*.json
+data/scholarships_before_*.json
