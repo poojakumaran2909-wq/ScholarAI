@@ -8,3 +8,5 @@ openai-whisper
 gTTS
 pydub
 python-dotenv
+
+uvicorn[standard]
