@@ -957,3 +957,110 @@ def get_deadline_info(
         "status":
             status
     }
+                deadline,
+
+
+
+            "days_remaining":
+
+                None,
+
+
+
+            "status":
+
+                "check_portal"
+
+        }
+
+
+
+    # --------------------------------------------------------
+
+    # Calculate remaining days
+
+    # --------------------------------------------------------
+
+
+
+    today = datetime.now().date()
+
+
+
+    deadline_date = (
+
+        parsed_date.date()
+
+    )
+
+
+
+    days_remaining = (
+
+        deadline_date - today
+
+    ).days
+
+
+
+    # --------------------------------------------------------
+
+    # Determine status
+
+    # --------------------------------------------------------
+
+
+
+    if days_remaining < 0:
+
+
+
+        status = "expired"
+
+
+
+    elif days_remaining <= 3:
+
+
+
+        status = "urgent"
+
+
+
+    elif days_remaining <= 7:
+
+
+
+        status = "soon"
+
+
+
+    else:
+
+
+
+        status = "open"
+
+
+
+    return {
+
+
+
+        "deadline":
+
+            deadline,
+
+
+
+        "days_remaining":
+
+            days_remaining,
+
+
+
+        "status":
+
+            status
+
+    }
