@@ -1,6 +1,14 @@
-from fastapi import FastAPI, Depends, UploadFile, File, HTTPException
+from fastapi import (
+    Depends,
+    FastAPI,
+    UploadFile,
+    File,
+    HTTPException,
+)
+
 from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
+
 from pydantic import BaseModel
 
 from backendd.auth_routes import (
@@ -12,7 +20,10 @@ from backendd.schemas.chat import AskRequest
 from backendd.schemas.profile import StudentProfile
 
 from services.rag_service import ask_question
-from services.scholarship_matcher import find_matching_scholarships
+
+from services.scholarship_matcher import (
+    find_matching_scholarships,
+)
 
 from services.database import (
     init_db,
@@ -24,15 +35,14 @@ from services.database import (
     update_scholarship_status,
 )
 
-from faster_whisper import WhisperModel
-
-from datetime import datetime
 import tempfile
 import os
 
+from datetime import datetime
+
 
 # ============================================================
-# OPTIONAL TEXT-TO-SPEECH
+# OPTIONAL TEXT TO SPEECH
 # ============================================================
 
 try:
@@ -73,22 +83,59 @@ app.add_middleware(
 
 init_db()
 
-print("ScholarAI database initialized successfully.")
-
-
-# ============================================================
-# WHISPER
-# ============================================================
-
-print("Loading speech recognition model...")
-
-whisper_model = WhisperModel(
-    "base",
-    device="cpu",
-    compute_type="int8",
+print(
+    "ScholarAI database initialized successfully."
 )
 
-print("Speech recognition model loaded successfully.")
+
+# ============================================================
+# WHISPER - LAZY LOADING
+# ============================================================
+
+whisper_model = None
+
+
+def get_whisper_model():
+    """
+    Load Whisper only when speech transcription
+    is actually requested.
+
+    This prevents the model from being loaded
+    during Render server startup.
+    """
+
+    global whisper_model
+
+    if whisper_model is None:
+
+        print(
+            "Loading speech recognition model..."
+        )
+
+        try:
+            from faster_whisper import WhisperModel
+
+            whisper_model = WhisperModel(
+                "base",
+                device="cpu",
+                compute_type="int8",
+            )
+
+            print(
+                "Speech recognition model loaded successfully."
+            )
+
+        except Exception as e:
+
+            print(
+                "Failed to load speech recognition model:"
+            )
+
+            print(str(e))
+
+            raise
+
+    return whisper_model
 
 
 # ============================================================
@@ -96,12 +143,16 @@ print("Speech recognition model loaded successfully.")
 # ============================================================
 
 class SaveScholarshipRequest(BaseModel):
+
     scholarship_id: str
+
     scholarship_name: str
+
     deadline: str | None = None
 
 
 class ScholarshipStatusRequest(BaseModel):
+
     status: str
 
 
@@ -131,6 +182,7 @@ def verify_user_access(
     )
 
     if token_email != requested_email:
+
         raise HTTPException(
             status_code=403,
             detail=(
@@ -146,8 +198,10 @@ def verify_user_access(
 
 @app.get("/")
 def home():
+
     return {
-        "message": "Scholarship Assistant API is running"
+        "message":
+            "Scholarship Assistant API is running"
     }
 
 
@@ -159,14 +213,19 @@ def home():
 def ask(
     request: AskRequest,
 ):
+
     result = ask_question(
         request.question
     )
 
     return {
         "question": request.question,
-        "answer": result["answer"],
-        "scholarships": result["scholarships"],
+
+        "answer":
+            result["answer"],
+
+        "scholarships":
+            result["scholarships"],
     }
 
 
@@ -178,11 +237,13 @@ def ask(
 async def transcribe_audio(
     file: UploadFile = File(...),
 ):
+
     temp_path = None
 
     try:
 
         if not file:
+
             raise HTTPException(
                 status_code=400,
                 detail="No audio file received.",
@@ -191,6 +252,7 @@ async def transcribe_audio(
         audio_data = await file.read()
 
         if not audio_data:
+
             raise HTTPException(
                 status_code=400,
                 detail="Audio file is empty.",
@@ -245,11 +307,17 @@ async def transcribe_audio(
         )
 
         # ----------------------------------------------------
+        # Load Whisper only now
+        # ----------------------------------------------------
+
+        model = get_whisper_model()
+
+        # ----------------------------------------------------
         # Whisper transcription
         # ----------------------------------------------------
 
         segments, info = (
-            whisper_model.transcribe(
+            model.transcribe(
                 temp_path,
                 beam_size=5,
                 vad_filter=True,
@@ -278,6 +346,7 @@ async def transcribe_audio(
         )
 
         if not text:
+
             raise HTTPException(
                 status_code=400,
                 detail=(
@@ -287,14 +356,18 @@ async def transcribe_audio(
             )
 
         return {
-            "text": text,
-            "language": info.language,
-            "language_probability": (
-                info.language_probability
-            ),
+            "text":
+                text,
+
+            "language":
+                info.language,
+
+            "language_probability":
+                info.language_probability,
         }
 
     except HTTPException:
+
         raise
 
     except Exception as e:
@@ -331,10 +404,13 @@ async def transcribe_audio(
         ):
 
             try:
+
                 os.remove(
                     temp_path
                 )
+
             except Exception:
+
                 pass
 
 
@@ -346,24 +422,25 @@ async def transcribe_audio(
 async def speak_text(
     request: dict,
 ):
+
     text = request.get(
         "text",
         "",
     ).strip()
 
     if not text:
+
         raise HTTPException(
             status_code=400,
             detail="No text provided.",
         )
 
     # --------------------------------------------------------
-    # gTTS is optional during deployment.
-    # This prevents the whole FastAPI application from
-    # crashing when gTTS is not installed.
+    # gTTS is optional on deployment
     # --------------------------------------------------------
 
     if gTTS is None:
+
         raise HTTPException(
             status_code=503,
             detail=(
@@ -419,6 +496,7 @@ async def speak_text(
 def save_student_profile(
     profile: StudentProfile,
 ):
+
     save_profile(
         profile
     )
@@ -430,6 +508,7 @@ def save_student_profile(
     return {
         "message":
             "Student profile saved successfully",
+
         "profile":
             saved_profile,
     }
@@ -446,6 +525,7 @@ def get_student_profile(
         get_current_user
     ),
 ):
+
     verify_user_access(
         email,
         current_user,
@@ -456,13 +536,15 @@ def get_student_profile(
     )
 
     if not profile:
+
         raise HTTPException(
             status_code=404,
             detail="Student profile not found",
         )
 
     return {
-        "profile": profile
+        "profile":
+            profile,
     }
 
 
@@ -477,6 +559,7 @@ def get_matches(
         get_current_user
     ),
 ):
+
     verify_user_access(
         email,
         current_user,
@@ -487,6 +570,7 @@ def get_matches(
     )
 
     if not profile:
+
         raise HTTPException(
             status_code=404,
             detail="Student profile not found",
@@ -540,7 +624,9 @@ def get_matches(
             "status"
         ) == "matched":
 
-            item["status"] = "eligible"
+            item["status"] = (
+                "eligible"
+            )
 
         elif item.get(
             "status"
@@ -555,13 +641,18 @@ def get_matches(
         )
 
     return {
-        "email": email,
+        "email":
+            email,
+
         "total_matches":
             len(formatted_matches),
+
         "eligible_count":
             eligible_count,
+
         "verification_count":
             verification_count,
+
         "matches":
             formatted_matches,
     }
@@ -579,6 +670,7 @@ def save_scholarship_endpoint(
         get_current_user
     ),
 ):
+
     verify_user_access(
         email,
         current_user,
@@ -589,6 +681,7 @@ def save_scholarship_endpoint(
     )
 
     if not profile:
+
         raise HTTPException(
             status_code=404,
             detail="Student profile not found",
@@ -604,8 +697,10 @@ def save_scholarship_endpoint(
     return {
         "message":
             "Scholarship saved successfully",
+
         "scholarship_id":
             request.scholarship_id,
+
         "scholarship_name":
             request.scholarship_name,
     }
@@ -622,6 +717,7 @@ def get_saved(
         get_current_user
     ),
 ):
+
     verify_user_access(
         email,
         current_user,
@@ -632,6 +728,7 @@ def get_saved(
     )
 
     if not profile:
+
         raise HTTPException(
             status_code=404,
             detail="Student profile not found",
@@ -642,9 +739,14 @@ def get_saved(
     )
 
     return {
-        "email": email,
-        "total_saved": len(saved),
-        "saved": saved,
+        "email":
+            email,
+
+        "total_saved":
+            len(saved),
+
+        "saved":
+            saved,
     }
 
 
@@ -662,6 +764,7 @@ def delete_saved(
         get_current_user
     ),
 ):
+
     verify_user_access(
         email,
         current_user,
@@ -672,6 +775,7 @@ def delete_saved(
     )
 
     if not profile:
+
         raise HTTPException(
             status_code=404,
             detail="Student profile not found",
@@ -683,6 +787,7 @@ def delete_saved(
     )
 
     if not removed:
+
         raise HTTPException(
             status_code=404,
             detail="Saved scholarship not found",
@@ -691,6 +796,7 @@ def delete_saved(
     return {
         "message":
             "Scholarship removed successfully",
+
         "scholarship_id":
             scholarship_id,
     }
@@ -711,6 +817,7 @@ def change_scholarship_status(
         get_current_user
     ),
 ):
+
     verify_user_access(
         email,
         current_user,
@@ -721,6 +828,7 @@ def change_scholarship_status(
     )
 
     if not profile:
+
         raise HTTPException(
             status_code=404,
             detail="Student profile not found",
@@ -737,6 +845,7 @@ def change_scholarship_status(
     }
 
     if request.status not in allowed_statuses:
+
         raise HTTPException(
             status_code=400,
             detail=(
@@ -752,6 +861,7 @@ def change_scholarship_status(
     )
 
     if not updated:
+
         raise HTTPException(
             status_code=404,
             detail="Saved scholarship not found",
@@ -760,8 +870,10 @@ def change_scholarship_status(
     return {
         "message":
             "Scholarship status updated",
+
         "scholarship_id":
             scholarship_id,
+
         "status":
             request.status,
     }
@@ -777,11 +889,18 @@ def change_scholarship_status(
 def get_deadline_info(
     deadline: str,
 ):
+
     if not deadline:
+
         return {
-            "deadline": None,
-            "days_remaining": None,
-            "status": "unknown",
+            "deadline":
+                None,
+
+            "days_remaining":
+                None,
+
+            "status":
+                "unknown",
         }
 
     # --------------------------------------------------------
@@ -810,6 +929,7 @@ def get_deadline_info(
             break
 
         except ValueError:
+
             continue
 
     # --------------------------------------------------------
@@ -817,10 +937,16 @@ def get_deadline_info(
     # --------------------------------------------------------
 
     if parsed_date is None:
+
         return {
-            "deadline": deadline,
-            "days_remaining": None,
-            "status": "check_portal",
+            "deadline":
+                deadline,
+
+            "days_remaining":
+                None,
+
+            "status":
+                "check_portal",
         }
 
     # --------------------------------------------------------
@@ -842,21 +968,28 @@ def get_deadline_info(
     # --------------------------------------------------------
 
     if days_remaining < 0:
+
         status = "expired"
 
     elif days_remaining <= 3:
+
         status = "urgent"
 
     elif days_remaining <= 7:
+
         status = "soon"
 
     else:
+
         status = "open"
 
     return {
-        "deadline": deadline,
+        "deadline":
+            deadline,
+
         "days_remaining":
             days_remaining,
+
         "status":
             status,
     }
