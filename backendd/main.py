@@ -5,26 +5,20 @@ from fastapi import (
     File,
     HTTPException,
 )
-
 from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
-
 from pydantic import BaseModel
 
 from backendd.auth_routes import (
     router as auth_router,
     get_current_user,
 )
-
 from backendd.schemas.chat import AskRequest
 from backendd.schemas.profile import StudentProfile
-
 from services.rag_service import ask_question
-
 from services.scholarship_matcher import (
     find_matching_scholarships,
 )
-
 from services.database import (
     init_db,
     save_profile,
@@ -37,9 +31,7 @@ from services.database import (
 
 import tempfile
 import os
-
 from datetime import datetime
-
 
 # ============================================================
 # OPTIONAL TEXT TO SPEECH
@@ -49,7 +41,6 @@ try:
     from gtts import gTTS
 except ImportError:
     gTTS = None
-
 
 # ============================================================
 # FASTAPI APP
@@ -63,7 +54,6 @@ app = FastAPI(
 
 app.include_router(auth_router)
 
-
 # ============================================================
 # CORS
 # ============================================================
@@ -76,7 +66,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
 # ============================================================
 # DATABASE
 # ============================================================
@@ -84,9 +73,9 @@ app.add_middleware(
 init_db()
 
 print(
-    "ScholarAI database initialized successfully."
+    "ScholarAI database initialized successfully.",
+    flush=True,
 )
-
 
 # ============================================================
 # WHISPER - LAZY LOADING
@@ -96,20 +85,13 @@ whisper_model = None
 
 
 def get_whisper_model():
-    """
-    Load Whisper only when speech transcription
-    is actually requested.
-
-    This prevents the model from being loaded
-    during Render server startup.
-    """
-
+    """Load Whisper only when transcription is requested."""
     global whisper_model
 
     if whisper_model is None:
-
         print(
-            "Loading speech recognition model..."
+            "Loading speech recognition model...",
+            flush=True,
         )
 
         try:
@@ -122,17 +104,15 @@ def get_whisper_model():
             )
 
             print(
-                "Speech recognition model loaded successfully."
+                "Speech recognition model loaded successfully.",
+                flush=True,
             )
 
         except Exception as e:
-
             print(
-                "Failed to load speech recognition model:"
+                f"Failed to load speech recognition model: {e}",
+                flush=True,
             )
-
-            print(str(e))
-
             raise
 
     return whisper_model
@@ -143,16 +123,12 @@ def get_whisper_model():
 # ============================================================
 
 class SaveScholarshipRequest(BaseModel):
-
     scholarship_id: str
-
     scholarship_name: str
-
     deadline: str | None = None
 
 
 class ScholarshipStatusRequest(BaseModel):
-
     status: str
 
 
@@ -164,10 +140,7 @@ def verify_user_access(
     email: str,
     current_user: dict,
 ):
-    """
-    Make sure the logged-in user can only access
-    their own profile, matches and saved scholarships.
-    """
+    """Ensure users can access only their own account data."""
 
     token_email = (
         current_user["user"]["email"]
@@ -176,13 +149,10 @@ def verify_user_access(
     )
 
     requested_email = (
-        email
-        .strip()
-        .lower()
+        email.strip().lower()
     )
 
     if token_email != requested_email:
-
         raise HTTPException(
             status_code=403,
             detail=(
@@ -198,35 +168,62 @@ def verify_user_access(
 
 @app.get("/")
 def home():
-
     return {
-        "message":
-            "Scholarship Assistant API is running"
+        "message": "Scholarship Assistant API is running"
     }
 
 
 # ============================================================
-# ASK
+# ASK - WITH DIAGNOSTIC LOGGING
 # ============================================================
 
 @app.post("/ask")
-def ask(
-    request: AskRequest,
-):
-
-    result = ask_question(
-        request.question
+def ask(request: AskRequest):
+    print(
+        "ASK DEBUG: Request reached /ask",
+        flush=True,
     )
 
-    return {
-        "question": request.question,
+    try:
+        question = request.question.strip()
 
-        "answer":
-            result["answer"],
+        if not question:
+            raise HTTPException(
+                status_code=400,
+                detail="Please enter a question.",
+            )
 
-        "scholarships":
-            result["scholarships"],
-    }
+        print(
+            "ASK DEBUG: Starting RAG service",
+            flush=True,
+        )
+
+        result = ask_question(question)
+
+        print(
+            "ASK DEBUG: RAG service completed",
+            flush=True,
+        )
+
+        return {
+            "question": question,
+            "answer": result["answer"],
+            "scholarships": result["scholarships"],
+        }
+
+    except HTTPException:
+        raise
+
+    except Exception as e:
+        print(
+            f"ASK DEBUG: Failed with {type(e).__name__}: {e}",
+            flush=True,
+        )
+
+        raise HTTPException(
+            status_code=500,
+            detail="Unable to generate an answer. Please try again.",
+        )
 
 
 # ============================================================
@@ -237,13 +234,10 @@ def ask(
 async def transcribe_audio(
     file: UploadFile = File(...),
 ):
-
     temp_path = None
 
     try:
-
         if not file:
-
             raise HTTPException(
                 status_code=400,
                 detail="No audio file received.",
@@ -252,77 +246,33 @@ async def transcribe_audio(
         audio_data = await file.read()
 
         if not audio_data:
-
             raise HTTPException(
                 status_code=400,
                 detail="Audio file is empty.",
             )
 
-        # ----------------------------------------------------
-        # Save audio as M4A
-        # ----------------------------------------------------
-
         with tempfile.NamedTemporaryFile(
             delete=False,
             suffix=".m4a",
         ) as temp_file:
-
-            temp_file.write(
-                audio_data
-            )
-
+            temp_file.write(audio_data)
             temp_path = temp_file.name
 
-        print(
-            "==================================="
-        )
-
-        print(
-            "AUDIO RECEIVED"
-        )
-
-        print(
-            "Filename:",
-            file.filename,
-        )
-
-        print(
-            "Content type:",
-            file.content_type,
-        )
-
-        print(
-            "Size:",
-            len(audio_data),
-            "bytes",
-        )
-
-        print(
-            "Temporary file:",
-            temp_path,
-        )
-
-        print(
-            "==================================="
-        )
-
-        # ----------------------------------------------------
-        # Load Whisper only now
-        # ----------------------------------------------------
+        print("===================================", flush=True)
+        print("AUDIO RECEIVED", flush=True)
+        print("Filename:", file.filename, flush=True)
+        print("Content type:", file.content_type, flush=True)
+        print("Size:", len(audio_data), "bytes", flush=True)
+        print("Temporary file:", temp_path, flush=True)
+        print("===================================", flush=True)
 
         model = get_whisper_model()
 
-        # ----------------------------------------------------
-        # Whisper transcription
-        # ----------------------------------------------------
-
-        segments, info = (
-            model.transcribe(
-                temp_path,
-                beam_size=5,
-                vad_filter=True,
-                condition_on_previous_text=False,
-            )
+        segments, info = model.transcribe(
+            temp_path,
+            beam_size=5,
+            vad_filter=True,
+            condition_on_previous_text=False,
         )
 
         text = " ".join(
@@ -330,87 +280,46 @@ async def transcribe_audio(
             for segment in segments
         ).strip()
 
-        print(
-            "Detected language:",
-            info.language,
-        )
-
+        print("Detected language:", info.language, flush=True)
         print(
             "Language probability:",
             info.language_probability,
+            flush=True,
         )
-
-        print(
-            "Transcribed text:",
-            repr(text),
-        )
+        print("Transcribed text:", repr(text), flush=True)
 
         if not text:
-
             raise HTTPException(
                 status_code=400,
-                detail=(
-                    "No speech was detected "
-                    "in the audio."
-                ),
+                detail="No speech was detected in the audio.",
             )
 
         return {
-            "text":
-                text,
-
-            "language":
-                info.language,
-
-            "language_probability":
-                info.language_probability,
+            "text": text,
+            "language": info.language,
+            "language_probability": info.language_probability,
         }
 
     except HTTPException:
-
         raise
 
     except Exception as e:
-
         print(
-            "==================================="
-        )
-
-        print(
-            "TRANSCRIPTION ERROR"
-        )
-
-        print(
-            str(e)
-        )
-
-        print(
-            "==================================="
+            "TRANSCRIPTION ERROR:",
+            str(e),
+            flush=True,
         )
 
         raise HTTPException(
             status_code=500,
-            detail=(
-                "Speech transcription failed: "
-                f"{str(e)}"
-            ),
+            detail=f"Speech transcription failed: {str(e)}",
         )
 
     finally:
-
-        if (
-            temp_path
-            and os.path.exists(temp_path)
-        ):
-
+        if temp_path and os.path.exists(temp_path):
             try:
-
-                os.remove(
-                    temp_path
-                )
-
+                os.remove(temp_path)
             except Exception:
-
                 pass
 
 
@@ -419,28 +328,16 @@ async def transcribe_audio(
 # ============================================================
 
 @app.post("/speak")
-async def speak_text(
-    request: dict,
-):
-
-    text = request.get(
-        "text",
-        "",
-    ).strip()
+async def speak_text(request: dict):
+    text = request.get("text", "").strip()
 
     if not text:
-
         raise HTTPException(
             status_code=400,
             detail="No text provided.",
         )
 
-    # --------------------------------------------------------
-    # gTTS is optional on deployment
-    # --------------------------------------------------------
-
     if gTTS is None:
-
         raise HTTPException(
             status_code=503,
             detail=(
@@ -452,12 +349,10 @@ async def speak_text(
     temp_path = None
 
     try:
-
         with tempfile.NamedTemporaryFile(
             delete=False,
             suffix=".mp3",
         ) as temp_file:
-
             temp_path = temp_file.name
 
         tts = gTTS(
@@ -465,9 +360,7 @@ async def speak_text(
             lang="en",
         )
 
-        tts.save(
-            temp_path
-        )
+        tts.save(temp_path)
 
         return FileResponse(
             temp_path,
@@ -476,11 +369,7 @@ async def speak_text(
         )
 
     except Exception as e:
-
-        print(
-            "TTS error:",
-            str(e),
-        )
+        print("TTS error:", str(e), flush=True)
 
         raise HTTPException(
             status_code=500,
@@ -493,24 +382,14 @@ async def speak_text(
 # ============================================================
 
 @app.post("/profile")
-def save_student_profile(
-    profile: StudentProfile,
-):
+def save_student_profile(profile: StudentProfile):
+    save_profile(profile)
 
-    save_profile(
-        profile
-    )
-
-    saved_profile = get_profile(
-        profile.email
-    )
+    saved_profile = get_profile(profile.email)
 
     return {
-        "message":
-            "Student profile saved successfully",
-
-        "profile":
-            saved_profile,
+        "message": "Student profile saved successfully",
+        "profile": saved_profile,
     }
 
 
@@ -521,31 +400,19 @@ def save_student_profile(
 @app.get("/profile/{email}")
 def get_student_profile(
     email: str,
-    current_user: dict = Depends(
-        get_current_user
-    ),
+    current_user: dict = Depends(get_current_user),
 ):
+    verify_user_access(email, current_user)
 
-    verify_user_access(
-        email,
-        current_user,
-    )
-
-    profile = get_profile(
-        email
-    )
+    profile = get_profile(email)
 
     if not profile:
-
         raise HTTPException(
             status_code=404,
             detail="Student profile not found",
         )
 
-    return {
-        "profile":
-            profile,
-    }
+    return {"profile": profile}
 
 
 # ============================================================
@@ -555,106 +422,50 @@ def get_student_profile(
 @app.get("/matches/{email}")
 def get_matches(
     email: str,
-    current_user: dict = Depends(
-        get_current_user
-    ),
+    current_user: dict = Depends(get_current_user),
 ):
+    verify_user_access(email, current_user)
 
-    verify_user_access(
-        email,
-        current_user,
-    )
-
-    profile = get_profile(
-        email
-    )
+    profile = get_profile(email)
 
     if not profile:
-
         raise HTTPException(
             status_code=404,
             detail="Student profile not found",
         )
 
-    # --------------------------------------------------------
-    # Find scholarships
-    # --------------------------------------------------------
-
-    matches = find_matching_scholarships(
-        profile
-    )
-
-    # --------------------------------------------------------
-    # Count eligible scholarships
-    # --------------------------------------------------------
+    matches = find_matching_scholarships(profile)
 
     eligible_count = sum(
         1
         for scholarship in matches
-        if scholarship.get(
-            "status"
-        ) == "matched"
+        if scholarship.get("status") == "matched"
     )
-
-    # --------------------------------------------------------
-    # Count scholarships needing verification
-    # --------------------------------------------------------
 
     verification_count = sum(
         1
         for scholarship in matches
-        if scholarship.get(
-            "status"
-        ) == "needs_verification"
+        if scholarship.get("status") == "needs_verification"
     )
-
-    # --------------------------------------------------------
-    # Format result
-    # --------------------------------------------------------
 
     formatted_matches = []
 
     for scholarship in matches:
+        item = dict(scholarship)
 
-        item = dict(
-            scholarship
-        )
+        if item.get("status") == "matched":
+            item["status"] = "eligible"
+        elif item.get("status") == "needs_verification":
+            item["status"] = "needs_verification"
 
-        if item.get(
-            "status"
-        ) == "matched":
-
-            item["status"] = (
-                "eligible"
-            )
-
-        elif item.get(
-            "status"
-        ) == "needs_verification":
-
-            item["status"] = (
-                "needs_verification"
-            )
-
-        formatted_matches.append(
-            item
-        )
+        formatted_matches.append(item)
 
     return {
-        "email":
-            email,
-
-        "total_matches":
-            len(formatted_matches),
-
-        "eligible_count":
-            eligible_count,
-
-        "verification_count":
-            verification_count,
-
-        "matches":
-            formatted_matches,
+        "email": email,
+        "total_matches": len(formatted_matches),
+        "eligible_count": eligible_count,
+        "verification_count": verification_count,
+        "matches": formatted_matches,
     }
 
 
@@ -666,22 +477,13 @@ def get_matches(
 def save_scholarship_endpoint(
     email: str,
     request: SaveScholarshipRequest,
-    current_user: dict = Depends(
-        get_current_user
-    ),
+    current_user: dict = Depends(get_current_user),
 ):
+    verify_user_access(email, current_user)
 
-    verify_user_access(
-        email,
-        current_user,
-    )
-
-    profile = get_profile(
-        email
-    )
+    profile = get_profile(email)
 
     if not profile:
-
         raise HTTPException(
             status_code=404,
             detail="Student profile not found",
@@ -695,14 +497,9 @@ def save_scholarship_endpoint(
     )
 
     return {
-        "message":
-            "Scholarship saved successfully",
-
-        "scholarship_id":
-            request.scholarship_id,
-
-        "scholarship_name":
-            request.scholarship_name,
+        "message": "Scholarship saved successfully",
+        "scholarship_id": request.scholarship_id,
+        "scholarship_name": request.scholarship_name,
     }
 
 
@@ -713,40 +510,24 @@ def save_scholarship_endpoint(
 @app.get("/saved/{email}")
 def get_saved(
     email: str,
-    current_user: dict = Depends(
-        get_current_user
-    ),
+    current_user: dict = Depends(get_current_user),
 ):
+    verify_user_access(email, current_user)
 
-    verify_user_access(
-        email,
-        current_user,
-    )
-
-    profile = get_profile(
-        email
-    )
+    profile = get_profile(email)
 
     if not profile:
-
         raise HTTPException(
             status_code=404,
             detail="Student profile not found",
         )
 
-    saved = get_saved_scholarships(
-        email
-    )
+    saved = get_saved_scholarships(email)
 
     return {
-        "email":
-            email,
-
-        "total_saved":
-            len(saved),
-
-        "saved":
-            saved,
+        "email": email,
+        "total_saved": len(saved),
+        "saved": saved,
     }
 
 
@@ -754,28 +535,17 @@ def get_saved(
 # REMOVE SAVED SCHOLARSHIP
 # ============================================================
 
-@app.delete(
-    "/saved/{email}/{scholarship_id}"
-)
+@app.delete("/saved/{email}/{scholarship_id}")
 def delete_saved(
     email: str,
     scholarship_id: str,
-    current_user: dict = Depends(
-        get_current_user
-    ),
+    current_user: dict = Depends(get_current_user),
 ):
+    verify_user_access(email, current_user)
 
-    verify_user_access(
-        email,
-        current_user,
-    )
-
-    profile = get_profile(
-        email
-    )
+    profile = get_profile(email)
 
     if not profile:
-
         raise HTTPException(
             status_code=404,
             detail="Student profile not found",
@@ -787,18 +557,14 @@ def delete_saved(
     )
 
     if not removed:
-
         raise HTTPException(
             status_code=404,
             detail="Saved scholarship not found",
         )
 
     return {
-        "message":
-            "Scholarship removed successfully",
-
-        "scholarship_id":
-            scholarship_id,
+        "message": "Scholarship removed successfully",
+        "scholarship_id": scholarship_id,
     }
 
 
@@ -806,37 +572,22 @@ def delete_saved(
 # UPDATE SCHOLARSHIP STATUS
 # ============================================================
 
-@app.patch(
-    "/saved/{email}/{scholarship_id}"
-)
+@app.patch("/saved/{email}/{scholarship_id}")
 def change_scholarship_status(
     email: str,
     scholarship_id: str,
     request: ScholarshipStatusRequest,
-    current_user: dict = Depends(
-        get_current_user
-    ),
+    current_user: dict = Depends(get_current_user),
 ):
+    verify_user_access(email, current_user)
 
-    verify_user_access(
-        email,
-        current_user,
-    )
-
-    profile = get_profile(
-        email
-    )
+    profile = get_profile(email)
 
     if not profile:
-
         raise HTTPException(
             status_code=404,
             detail="Student profile not found",
         )
-
-    # --------------------------------------------------------
-    # Allowed statuses
-    # --------------------------------------------------------
 
     allowed_statuses = {
         "saved",
@@ -845,7 +596,6 @@ def change_scholarship_status(
     }
 
     if request.status not in allowed_statuses:
-
         raise HTTPException(
             status_code=400,
             detail=(
@@ -861,21 +611,15 @@ def change_scholarship_status(
     )
 
     if not updated:
-
         raise HTTPException(
             status_code=404,
             detail="Saved scholarship not found",
         )
 
     return {
-        "message":
-            "Scholarship status updated",
-
-        "scholarship_id":
-            scholarship_id,
-
-        "status":
-            request.status,
+        "message": "Scholarship status updated",
+        "scholarship_id": scholarship_id,
+        "status": request.status,
     }
 
 
@@ -883,31 +627,14 @@ def change_scholarship_status(
 # DEADLINE INFORMATION
 # ============================================================
 
-@app.get(
-    "/deadline/{deadline}"
-)
-def get_deadline_info(
-    deadline: str,
-):
-
+@app.get("/deadline/{deadline}")
+def get_deadline_info(deadline: str):
     if not deadline:
-
         return {
-            "deadline":
-                None,
-
-            "days_remaining":
-                None,
-
-            "status":
-                "unknown",
+            "deadline": None,
+            "days_remaining": None,
+            "status": "unknown",
         }
-
-    # --------------------------------------------------------
-    # Supported date formats
-    # --------------------------------------------------------
-
-    parsed_date = None
 
     formats = [
         "%d-%m-%Y",
@@ -917,79 +644,40 @@ def get_deadline_info(
         "%d %b %Y",
     ]
 
+    parsed_date = None
+
     for date_format in formats:
-
         try:
-
             parsed_date = datetime.strptime(
                 deadline,
                 date_format,
             )
-
             break
-
         except ValueError:
-
             continue
 
-    # --------------------------------------------------------
-    # Unknown / dynamic deadline
-    # --------------------------------------------------------
-
     if parsed_date is None:
-
         return {
-            "deadline":
-                deadline,
-
-            "days_remaining":
-                None,
-
-            "status":
-                "check_portal",
+            "deadline": deadline,
+            "days_remaining": None,
+            "status": "check_portal",
         }
 
-    # --------------------------------------------------------
-    # Calculate remaining days
-    # --------------------------------------------------------
-
     today = datetime.now().date()
-
-    deadline_date = (
-        parsed_date.date()
-    )
-
-    days_remaining = (
-        deadline_date - today
-    ).days
-
-    # --------------------------------------------------------
-    # Determine status
-    # --------------------------------------------------------
+    deadline_date = parsed_date.date()
+    days_remaining = (deadline_date - today).days
 
     if days_remaining < 0:
-
         status = "expired"
-
     elif days_remaining <= 3:
-
         status = "urgent"
-
     elif days_remaining <= 7:
-
         status = "soon"
-
     else:
-
         status = "open"
 
     return {
-        "deadline":
-            deadline,
-
-        "days_remaining":
-            days_remaining,
-
-        "status":
-            status,
+        "deadline": deadline,
+        "days_remaining": days_remaining,
+        "status": status,
     }

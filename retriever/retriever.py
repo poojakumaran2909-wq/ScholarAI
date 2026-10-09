@@ -3,12 +3,19 @@ from vectorstore.faiss_db import load_vector_database
 
 def retrieve_documents(question, k=5):
 
+    print("RAG: Loading vector database...")
+
     vector_db = load_vector_database()
+
+    print("RAG: Vector database loaded.")
+    print("RAG: Running similarity search...")
 
     documents = vector_db.similarity_search(
         question,
         k=k
     )
+
+    print(f"RAG: Retrieved {len(documents)} documents.")
 
     question_words = set(
         question.lower()
@@ -32,14 +39,12 @@ def retrieve_documents(question, k=5):
             .split()
         )
 
-        # Count common words between question and scholarship name
         overlap = len(question_words & name_words)
 
         scored_documents.append(
             (overlap, document)
         )
 
-    # Highest name-word overlap first
     scored_documents.sort(
         key=lambda x: x[0],
         reverse=True
